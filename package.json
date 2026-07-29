@@ -1,0 +1,12 @@
+{
+  "name": "anime-draft-game",
+  "version": "1.0.0",
+  "description": "Local anime character draft game (Jikan API) inspired by the football squad-draft show",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

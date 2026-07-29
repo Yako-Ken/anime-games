@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صناديق الأنمي — ديل أور نو ديل</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="deal.css">
+</head>
+<body>
+
+<header class="topbar">
+  <h1>🎁 صناديق الأنمي</h1>
+  <nav>
+    <a href="index.html" class="navbtn">⚔️ لعبة الدرافت</a>
+    <a href="packs.html" class="navbtn">📦 تحدي الباكات</a>
+    <a href="index.html?tab=history" class="navbtn" id="navHistoryLink">📜 السجل</a>
+  </nav>
+</header>
+
+<main id="app">
+
+  <!-- SETUP -->
+  <section id="screen-setup" class="screen active">
+    <div class="card">
+      <h2>إعدادات اللعبة</h2>
+      <label>اسم اللاعب الأول
+        <input id="p1Name" type="text" placeholder="مثال: أحمد" maxlength="20">
+      </label>
+      <label>اسم اللاعب الثاني
+        <input id="p2Name" type="text" placeholder="مثال: محمد" maxlength="20">
+      </label>
+      <button id="startBtn" class="primary-btn">ابدأ اللعبة 🎁</button>
+      <p class="hint">
+        كل لاعب هيبني تشكيلة من 5 فئات: حارس، مدافع، وسط، مهاجم، ومدرب.
+        كل فئة فيها 4 صناديق — تفتح واحد، تقبل أو ترفض (لو رفضت بتفتح صندوق تاني نهائي).
+        أحيانًا (بشكل عشوائي، مش كل مرة) بيبقى في صناديق "عروض بنك" فيها كروت خاصة.
+      </p>
+    </div>
+  </section>
+
+  <!-- LOADING -->
+  <section id="screen-loading" class="screen">
+    <div class="card center">
+      <div class="spinner"></div>
+      <p id="loadingText">جاري تحميل الشخصيات...</p>
+      <div class="progress"><div id="progressBar" class="progress-fill"></div></div>
+    </div>
+  </section>
+
+  <!-- GAME -->
+  <section id="screen-game" class="screen">
+    <div class="deal-header">
+      <div id="categoryProgress" class="category-progress"></div>
+      <div id="cardBanner" class="card-banner"></div>
+    </div>
+
+    <div class="deal-players">
+      <div class="deal-player" id="dealPanel0">
+        <h3 id="dealName0"></h3>
+        <div class="deal-squad" id="dealSquad0"></div>
+      </div>
+      <div class="deal-player" id="dealPanel1">
+        <h3 id="dealName1"></h3>
+        <div class="deal-squad" id="dealSquad1"></div>
+      </div>
+    </div>
+
+    <div class="deal-stage" id="dealStage">
+      <!-- box grid / reveal panel injected here -->
+    </div>
+  </section>
+
+  <!-- MATCH RESULT -->
+  <section id="screen-match" class="screen">
+    <div class="card center">
+      <h2>⚽ نتيجة المباراة</h2>
+      <div class="match-score">
+        <div class="match-side">
+          <div id="matchP1Name" class="match-name"></div>
+          <div id="matchP1Power" class="power"></div>
+        </div>
+        <div id="matchScore" class="score">? - ?</div>
+        <div class="match-side">
+          <div id="matchP2Name" class="match-name"></div>
+          <div id="matchP2Power" class="power"></div>
+        </div>
+      </div>
+      <div id="matchWinner" class="winner"></div>
+
+      <div class="scorers-box">
+        <div class="scorers-col">
+          <h4>⚽ أهداف <span id="scorersP1Name"></span></h4>
+          <ul id="scorersP1List" class="scorers-list"></ul>
+        </div>
+        <div class="scorers-col">
+          <h4>⚽ أهداف <span id="scorersP2Name"></span></h4>
+          <ul id="scorersP2List" class="scorers-list"></ul>
+        </div>
+      </div>
+
+      <div class="motm-box" id="motmBox">
+        <div class="motm-label">🌟 نجم المباراة</div>
+        <img id="motmImg" src="" alt="">
+        <div id="motmName" class="motm-name"></div>
+        <div id="motmDetail" class="motm-detail"></div>
+      </div>
+
+      <button id="newGameBtn" class="primary-btn">لعبة جديدة 🔁</button>
+    </div>
+  </section>
+
+</main>
+
+<script src="common.js"></script>
+<script src="deal.js"></script>
+</body>
+</html>

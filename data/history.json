@@ -1,0 +1,1122 @@
+[
+  {
+    "mode": "packs",
+    "players": [
+      {
+        "name": "طنبا",
+        "power": 365,
+        "squad": [
+          {
+            "name": "Akiha, Rumiho",
+            "image": "https://cdn.myanimelist.net/images/characters/2/142621.jpg?s=778aca012f3b10c8b8e115ad240538a0",
+            "price": 0
+          },
+          {
+            "name": "Franky",
+            "image": "https://cdn.myanimelist.net/images/characters/13/210053.jpg?s=58f71be3af78384ac43869b8c681efaf",
+            "price": 0
+          },
+          {
+            "name": "Sakazuki",
+            "image": "https://cdn.myanimelist.net/images/characters/16/306908.jpg?s=4c7849616d1f127b9ba0888c182f70f3",
+            "price": 0
+          },
+          {
+            "name": "Buggy",
+            "image": "https://cdn.myanimelist.net/images/characters/6/69112.jpg?s=2bb908ba252c0eaafa779c6d868f379a",
+            "price": 0
+          },
+          {
+            "name": "van Astrea, Reinhard",
+            "image": "https://cdn.myanimelist.net/images/characters/7/312722.jpg?s=4f43fa8a5da434c4958220d90c3944bd",
+            "price": 0
+          },
+          {
+            "name": "Getou, Suguru",
+            "image": "https://cdn.myanimelist.net/images/characters/7/619361.jpg?s=f44b1c92fcebfa466ee403e1d77b5d45",
+            "price": 0
+          },
+          {
+            "name": "Marco",
+            "image": "https://cdn.myanimelist.net/images/characters/4/100226.jpg?s=a7a5c0a4e8423614b5a681df711e3515",
+            "price": 0
+          },
+          {
+            "name": "Yagami, Light",
+            "image": "https://cdn.myanimelist.net/images/characters/6/63870.jpg?s=3adaed92c13123a9649ccc0cc6551f7d",
+            "price": 0
+          }
+        ],
+        "twist": "Getou, Suguru مشتعل النهاردة! قوته زادت جامد"
+      },
+      {
+        "name": "عصام",
+        "power": 214,
+        "squad": [
+          {
+            "name": "Bartholomew, Kuma",
+            "image": "https://cdn.myanimelist.net/images/characters/2/54820.jpg?s=c38c3907abd07e5c46d36fd2a3c11e63",
+            "price": 0
+          },
+          {
+            "name": "Jeevas, Mail",
+            "image": "https://cdn.myanimelist.net/images/characters/9/42363.jpg?s=2922e85e60bacaf94c6419bc9c9a792a",
+            "price": 0
+          },
+          {
+            "name": "Borsalino",
+            "image": "https://cdn.myanimelist.net/images/characters/12/96168.jpg?s=7c613bd175781463b30215b36fdee4be",
+            "price": 0
+          },
+          {
+            "name": "Nanami, Kento",
+            "image": "https://cdn.myanimelist.net/images/characters/16/581424.jpg?s=78de007092c9e32f3555753de4999ee6",
+            "price": 0
+          },
+          {
+            "name": "Charlotte, Katakuri",
+            "image": "https://cdn.myanimelist.net/images/characters/8/342776.jpg?s=f470538ebc96929c2d1ba1e27b7a9f63",
+            "price": 0
+          },
+          {
+            "name": "Satella",
+            "image": "https://cdn.myanimelist.net/images/characters/11/333682.jpg?s=d51df16debe182247eb3c6796ee4b1df",
+            "price": 0
+          },
+          {
+            "name": "Edward, Newgate",
+            "image": "https://cdn.myanimelist.net/images/characters/3/100236.jpg?s=7d8b2cff3cdb3b4cae84ff79ddf906cf",
+            "price": 0
+          },
+          {
+            "name": "Silvers, Rayleigh",
+            "image": "https://cdn.myanimelist.net/images/characters/16/141861.jpg?s=6007c12796bddfe07abbfbdce1b95c46",
+            "price": 0
+          }
+        ],
+        "twist": "الفريق مرهق! قوة التشكيلة كلها هتقل شوية"
+      }
+    ],
+    "score": {
+      "p1": 2,
+      "p2": 3
+    },
+    "scorers": {
+      "p1": [
+        "Yagami, Light",
+        "Yagami, Light"
+      ],
+      "p2": [
+        "Edward, Newgate",
+        "Nanami, Kento",
+        "Charlotte, Katakuri"
+      ]
+    },
+    "date": "2026-07-29T10:04:34.415Z"
+  },
+  {
+    "mode": "packs",
+    "players": [
+      {
+        "name": "طنبا",
+        "power": 473,
+        "squad": [
+          {
+            "name": "Kon",
+            "image": "https://cdn.myanimelist.net/images/characters/8/102740.jpg?s=f91b0f029056ba25d9aa2dbdc088ce92",
+            "price": 0
+          },
+          {
+            "name": "Pain",
+            "image": "https://cdn.myanimelist.net/images/characters/8/73473.jpg?s=5c41288db6aa7a2339a4ff90ea211d49",
+            "price": 0
+          },
+          {
+            "name": "Amane, Misa",
+            "image": "https://cdn.myanimelist.net/images/characters/5/30971.jpg?s=0af596d087b34f6e05942dcae60aebae",
+            "price": 0
+          },
+          {
+            "name": "Abarai, Renji",
+            "image": "https://cdn.myanimelist.net/images/characters/10/171877.jpg?s=e4fb4773c11884cd26a4eaed44ca3f6d",
+            "price": 0
+          },
+          {
+            "name": "Momochi, Zabuza",
+            "image": "https://cdn.myanimelist.net/images/characters/14/103706.jpg?s=4550a5e0c0af5a9f355a000386954d38",
+            "price": 0
+          },
+          {
+            "name": "Yagami, Light",
+            "image": "https://cdn.myanimelist.net/images/characters/6/63870.jpg?s=3adaed92c13123a9649ccc0cc6551f7d",
+            "price": 0
+          },
+          {
+            "name": "Ryuk",
+            "image": "https://cdn.myanimelist.net/images/characters/10/59125.jpg?s=e258ccc6e6f6ed00c837b5ae8bced941",
+            "price": 0
+          },
+          {
+            "name": "Haruno, Sakura",
+            "image": "https://cdn.myanimelist.net/images/characters/9/69275.jpg?s=36c4ad9f4440d77918c34c49870e719c",
+            "price": 0
+          }
+        ],
+        "twist": "روح معنوية عالية! قوة التشكيلة كلها هتزيد شوية"
+      },
+      {
+        "name": "عصام",
+        "power": 205,
+        "squad": [
+          {
+            "name": "Matsumoto, Rangiku",
+            "image": "https://cdn.myanimelist.net/images/characters/14/520193.jpg?s=7230b409bd7466d6f38d280000edce09",
+            "price": 0
+          },
+          {
+            "name": "Inoue, Orihime",
+            "image": "https://cdn.myanimelist.net/images/characters/9/505076.jpg?s=bf526e705495c0698997a2f8b9e3d6f9",
+            "price": 0
+          },
+          {
+            "name": "Yamamoto-Genryuusai, Shigekuni",
+            "image": "https://cdn.myanimelist.net/images/characters/7/33294.jpg?s=91124999bf07aecce422148f97ac6291",
+            "price": 0
+          },
+          {
+            "name": "Jiraiya",
+            "image": "https://cdn.myanimelist.net/images/characters/15/68618.jpg?s=ec35c8f49aa4cd7389bfc36d30cda3d7",
+            "price": 0
+          },
+          {
+            "name": "Umino, Iruka",
+            "image": "https://cdn.myanimelist.net/images/characters/10/100216.jpg?s=8ce41c2857b1d19260f46e114cc9d158",
+            "price": 0
+          },
+          {
+            "name": "Haku",
+            "image": "https://cdn.myanimelist.net/images/characters/10/103707.jpg?s=6f30c87be8eabac48a20071677fd972c",
+            "price": 0
+          },
+          {
+            "name": "Kakuzu",
+            "image": "https://cdn.myanimelist.net/images/characters/11/255727.jpg?s=5c401401ec96dc333b18486cef42c242",
+            "price": 0
+          },
+          {
+            "name": "Hoshigaki, Kisame",
+            "image": "https://cdn.myanimelist.net/images/characters/11/433351.jpg?s=46d6b63938f0ab6572f96798dd4fba85",
+            "price": 0
+          }
+        ],
+        "twist": "Haku في فورمة النار! هيلعب بضعف قوته الحقيقية"
+      }
+    ],
+    "score": {
+      "p1": 1,
+      "p2": 0
+    },
+    "scorers": {
+      "p1": [
+        "Yagami, Light"
+      ],
+      "p2": []
+    },
+    "date": "2026-07-29T10:03:56.016Z"
+  },
+  {
+    "mode": "packs",
+    "players": [
+      {
+        "name": "طنبا",
+        "power": 448,
+        "squad": [
+          {
+            "name": "Uchiha, Sasuke",
+            "image": "https://cdn.myanimelist.net/images/characters/9/131317.jpg?s=9705c17dba36c2edebded3a72dc1a46e",
+            "price": 0
+          },
+          {
+            "name": "Hoozuki, Suigetsu",
+            "image": "https://cdn.myanimelist.net/images/characters/15/73652.jpg?s=bf1051ba4b667b69a36dea46d29a1804",
+            "price": 0
+          },
+          {
+            "name": "Yamanaka, Ino",
+            "image": "https://cdn.myanimelist.net/images/characters/9/60062.jpg?s=bd8ff387569eebde9eb9af3d2a7feefc",
+            "price": 0
+          },
+          {
+            "name": "Uchiha, Madara",
+            "image": "https://cdn.myanimelist.net/images/characters/12/450359.jpg?s=40bd9ba9baf6061b3f394b6c4b9978bc",
+            "price": 0
+          },
+          {
+            "name": "Killer Bee",
+            "image": "https://cdn.myanimelist.net/images/characters/2/128072.jpg?s=0253bf1db4c6aa0f46b3765350c530a2",
+            "price": 0
+          },
+          {
+            "name": "Okabe, Rintarou",
+            "image": "https://cdn.myanimelist.net/images/characters/6/122643.jpg?s=b5ae0b297aefb93f19186e9edfdaee83",
+            "price": 0
+          },
+          {
+            "name": "Shiina, Mayuri",
+            "image": "https://cdn.myanimelist.net/images/characters/4/131329.jpg?s=ff82135c773b4903f6cae50c1d43ca26",
+            "price": 0
+          },
+          {
+            "name": "Uchiha, Shisui",
+            "image": "https://cdn.myanimelist.net/images/characters/16/292332.jpg?s=dc0ecb10593988b603f0badd1d9d06e5",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "عصام",
+        "power": 357,
+        "squad": [
+          {
+            "name": "Rem",
+            "image": "https://cdn.myanimelist.net/images/characters/10/28562.jpg?s=c132f8cc80e93184d9cd180218579e69",
+            "price": 0
+          },
+          {
+            "name": "Izumi, Shinichi",
+            "image": "https://cdn.myanimelist.net/images/characters/6/269013.jpg?s=1f0f49f662bd4f462b9c9b5f953ce11e",
+            "price": 0
+          },
+          {
+            "name": "Uchiha, Obito",
+            "image": "https://cdn.myanimelist.net/images/characters/8/70596.jpg?s=162bc6d766d44ef6d12cff4779b8a5cd",
+            "price": 0
+          },
+          {
+            "name": "Uzumaki, Naruto",
+            "image": "https://cdn.myanimelist.net/images/characters/2/284121.jpg?s=3ebac88ad166bf105d8f04894f3fb469",
+            "price": 0
+          },
+          {
+            "name": "Tamiya, Ryouko",
+            "image": "https://cdn.myanimelist.net/images/characters/10/263735.jpg?s=8cbd9b114308acb40f8e6f4009bea0d9",
+            "price": 0
+          },
+          {
+            "name": "Blue, Benedict",
+            "image": "https://cdn.myanimelist.net/images/characters/3/494475.jpg?s=70c6cf9a19377bb80aac395e442fb59c",
+            "price": 0
+          },
+          {
+            "name": "Temari",
+            "image": "https://cdn.myanimelist.net/images/characters/13/292452.jpg?s=81c9799689a262a4df639b3dd5c48bc3",
+            "price": 0
+          },
+          {
+            "name": "Haruno, Sakura",
+            "image": "https://cdn.myanimelist.net/images/characters/9/69275.jpg?s=36c4ad9f4440d77918c34c49870e719c",
+            "price": 0
+          }
+        ]
+      }
+    ],
+    "score": {
+      "p1": 1,
+      "p2": 2
+    },
+    "scorers": {
+      "p1": [
+        "Shiina, Mayuri"
+      ],
+      "p2": [
+        "Uzumaki, Naruto",
+        "Haruno, Sakura"
+      ]
+    },
+    "date": "2026-07-29T09:54:06.410Z"
+  },
+  {
+    "mode": "packs",
+    "players": [
+      {
+        "name": "طنبا",
+        "power": 379,
+        "squad": [
+          {
+            "name": "Levi",
+            "image": "https://cdn.myanimelist.net/images/characters/2/241413.jpg?s=1a789f9d4c7a441881e4b06a75bd91db",
+            "price": 0
+          },
+          {
+            "name": "Deidara",
+            "image": "https://cdn.myanimelist.net/images/characters/9/131319.jpg?s=02bd30a045b2aaabf13e22a0149845e2",
+            "price": 0
+          },
+          {
+            "name": "Yakushi, Kabuto",
+            "image": "https://cdn.myanimelist.net/images/characters/14/82459.jpg?s=81d3435c2ca60c6acbea9da7bc7ba6c4",
+            "price": 0
+          },
+          {
+            "name": "Bradley, King",
+            "image": "https://cdn.myanimelist.net/images/characters/11/62053.jpg?s=181ba72d4c6ba5605bbfb63f1812f876",
+            "price": 0
+          },
+          {
+            "name": "Hughes, Maes",
+            "image": "https://cdn.myanimelist.net/images/characters/13/73469.jpg?s=049daccbf5014073c0c8933c5388258a",
+            "price": 0
+          },
+          {
+            "name": "Scar",
+            "image": "https://cdn.myanimelist.net/images/characters/3/31591.jpg?s=0f4cfb335f3a86eede76abc630a3fe9e",
+            "price": 0
+          },
+          {
+            "name": "Kimblee, Solf J.",
+            "image": "https://cdn.myanimelist.net/images/characters/13/73900.jpg?s=4e06a2216ff671ee62226717168af70e",
+            "price": 0
+          },
+          {
+            "name": "Haku",
+            "image": "https://cdn.myanimelist.net/images/characters/10/103707.jpg?s=6f30c87be8eabac48a20071677fd972c",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "عصام",
+        "power": 342,
+        "squad": [
+          {
+            "name": "Jaegerjaquez, Grimmjow",
+            "image": "https://cdn.myanimelist.net/images/characters/9/529461.jpg?s=e1f5c0335f4f65934ccb61f6a3190561",
+            "price": 0
+          },
+          {
+            "name": "Jiraiya",
+            "image": "https://cdn.myanimelist.net/images/characters/15/68618.jpg?s=ec35c8f49aa4cd7389bfc36d30cda3d7",
+            "price": 0
+          },
+          {
+            "name": "Hitsugaya, Toushirou",
+            "image": "https://cdn.myanimelist.net/images/characters/11/36579.jpg?s=fec37a5d08dbe1f8e806d3f9ce9d7f4f",
+            "price": 0
+          },
+          {
+            "name": "Zaraki, Kenpachi",
+            "image": "https://cdn.myanimelist.net/images/characters/8/150265.jpg?s=a7bda35cc8518a68480cd334baa5e12a",
+            "price": 0
+          },
+          {
+            "name": "Starrk, Coyote",
+            "image": "https://cdn.myanimelist.net/images/characters/11/529318.jpg?s=eaff3658eb0b863d9142dcfb06a637d9",
+            "price": 0
+          },
+          {
+            "name": "Kakuzu",
+            "image": "https://cdn.myanimelist.net/images/characters/11/255727.jpg?s=5c401401ec96dc333b18486cef42c242",
+            "price": 0
+          },
+          {
+            "name": "Yamanaka, Ino",
+            "image": "https://cdn.myanimelist.net/images/characters/9/60062.jpg?s=bd8ff387569eebde9eb9af3d2a7feefc",
+            "price": 0
+          },
+          {
+            "name": "Aizen, Sousuke",
+            "image": "https://cdn.myanimelist.net/images/characters/16/73909.jpg?s=1a450d31fd432b46314048dbb3915fc4",
+            "price": 0
+          }
+        ]
+      }
+    ],
+    "score": {
+      "p1": 1,
+      "p2": 1
+    },
+    "scorers": {
+      "p1": [
+        "Levi"
+      ],
+      "p2": [
+        "Jaegerjaquez, Grimmjow"
+      ]
+    },
+    "date": "2026-07-29T09:53:54.959Z"
+  },
+  {
+    "mode": "packs",
+    "players": [
+      {
+        "name": "طنبا",
+        "power": 412,
+        "squad": [
+          {
+            "name": "Itadori, Yuuji",
+            "image": "https://cdn.myanimelist.net/images/characters/6/467646.jpg?s=9e1cb7b0c6c7f145661e8ee93f32215d",
+            "price": 0
+          },
+          {
+            "name": "Armstrong, Olivier Mira",
+            "image": "https://cdn.myanimelist.net/images/characters/7/83953.jpg?s=616c3cbf0f0a02068ac4f9bf7e52c746",
+            "price": 0
+          },
+          {
+            "name": "Hoover, Bertolt",
+            "image": "https://cdn.myanimelist.net/images/characters/2/206409.jpg?s=6dcbabbfc0a2f4a262e550e18c3f3369",
+            "price": 0
+          },
+          {
+            "name": "Springer, Connie",
+            "image": "https://cdn.myanimelist.net/images/characters/16/208109.jpg?s=6748b9d5cf3f95e0fd8d93135ac2b20b",
+            "price": 0
+          },
+          {
+            "name": "Levi",
+            "image": "https://cdn.myanimelist.net/images/characters/2/241413.jpg?s=1a789f9d4c7a441881e4b06a75bd91db",
+            "price": 0
+          },
+          {
+            "name": "Ymir",
+            "image": "https://cdn.myanimelist.net/images/characters/9/206385.jpg?s=68df6199c1b4e10d1f95215c87264fb0",
+            "price": 0
+          },
+          {
+            "name": "Envy",
+            "image": "https://cdn.myanimelist.net/images/characters/14/79027.jpg?s=4bcce514aa7b51d229ffd84a0a4976d5",
+            "price": 0
+          },
+          {
+            "name": "Yamanaka, Ino",
+            "image": "https://cdn.myanimelist.net/images/characters/9/60062.jpg?s=bd8ff387569eebde9eb9af3d2a7feefc",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "عصام",
+        "power": 315,
+        "squad": [
+          {
+            "name": "Arlert, Armin",
+            "image": "https://cdn.myanimelist.net/images/characters/8/220267.jpg?s=afa2751e2201aba1f5179544e787ba1a",
+            "price": 0
+          },
+          {
+            "name": "Pain",
+            "image": "https://cdn.myanimelist.net/images/characters/8/73473.jpg?s=5c41288db6aa7a2339a4ff90ea211d49",
+            "price": 0
+          },
+          {
+            "name": "Haku",
+            "image": "https://cdn.myanimelist.net/images/characters/10/103707.jpg?s=6f30c87be8eabac48a20071677fd972c",
+            "price": 0
+          },
+          {
+            "name": "Curtis, Izumi",
+            "image": "https://cdn.myanimelist.net/images/characters/5/85257.jpg?s=5e70b5c47afc7e05e9e5398bc8d2ea50",
+            "price": 0
+          },
+          {
+            "name": "Deidara",
+            "image": "https://cdn.myanimelist.net/images/characters/9/131319.jpg?s=02bd30a045b2aaabf13e22a0149845e2",
+            "price": 0
+          },
+          {
+            "name": "Scar",
+            "image": "https://cdn.myanimelist.net/images/characters/3/31591.jpg?s=0f4cfb335f3a86eede76abc630a3fe9e",
+            "price": 0
+          },
+          {
+            "name": "Yao, Ling",
+            "image": "https://cdn.myanimelist.net/images/characters/15/62602.jpg?s=c1c34cb6b91640be0fc8a4c4aadc14a1",
+            "price": 0
+          },
+          {
+            "name": "Garou",
+            "image": "https://cdn.myanimelist.net/images/characters/9/381817.jpg?s=746f6c6dee054abbdcd26108816ace87",
+            "price": 0
+          }
+        ]
+      }
+    ],
+    "score": {
+      "p1": 2,
+      "p2": 2
+    },
+    "scorers": {
+      "p1": [
+        "Levi",
+        "Levi"
+      ],
+      "p2": [
+        "Yao, Ling",
+        "Garou"
+      ]
+    },
+    "date": "2026-07-29T09:32:19.077Z"
+  },
+  {
+    "mode": "packs",
+    "players": [
+      {
+        "name": "طنبا",
+        "power": 377,
+        "squad": [
+          {
+            "name": "Metal Bat",
+            "image": "https://cdn.myanimelist.net/images/characters/12/296538.jpg?s=8555fd08e39b12f1af6bdda61eb7f9df",
+            "price": 0
+          },
+          {
+            "name": "Crocodile",
+            "image": "https://cdn.myanimelist.net/images/characters/6/100535.jpg?s=3acba3e9944b9f3d1160fff13f6920c3",
+            "price": 0
+          },
+          {
+            "name": "Pakunoda",
+            "image": "https://cdn.myanimelist.net/images/characters/2/533870.jpg?s=d39797057e8c2b1d7f02e23616598b07",
+            "price": 0
+          },
+          {
+            "name": "Brook",
+            "image": "https://cdn.myanimelist.net/images/characters/10/161005.jpg?s=8e3191d4d9691fffe3dafaefaf086014",
+            "price": 0
+          },
+          {
+            "name": "Monkey D., Luffy",
+            "image": "https://cdn.myanimelist.net/images/characters/9/310307.jpg?s=3a27ab33bee665febfba970f24f203ba",
+            "price": 0
+          },
+          {
+            "name": "Kozuki, Oden",
+            "image": "https://cdn.myanimelist.net/images/characters/4/433930.jpg?s=9eadde24f4f24e1fe27bf90913183b5c",
+            "price": 0
+          },
+          {
+            "name": "Portor, Feitan",
+            "image": "https://cdn.myanimelist.net/images/characters/10/174721.jpg?s=bf0a62d8405521bfb141e131c363f73d",
+            "price": 0
+          },
+          {
+            "name": "Smoker",
+            "image": "https://cdn.myanimelist.net/images/characters/5/235841.jpg?s=c18bb601180251c415f4f76a16b84825",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "name": "عصام",
+        "power": 316,
+        "squad": [
+          {
+            "name": "Kurapika",
+            "image": "https://cdn.myanimelist.net/images/characters/3/549312.jpg?s=fc4bb9699591fdf742c7fee5593c961e",
+            "price": 0
+          },
+          {
+            "name": "Sakazuki",
+            "image": "https://cdn.myanimelist.net/images/characters/16/306908.jpg?s=4c7849616d1f127b9ba0888c182f70f3",
+            "price": 0
+          },
+          {
+            "name": "Zoldyck, Illumi",
+            "image": "https://cdn.myanimelist.net/images/characters/8/174521.jpg?s=3b9c5ccadb580670fc0942edd8d06a6d",
+            "price": 0
+          },
+          {
+            "name": "Tatsumaki",
+            "image": "https://cdn.myanimelist.net/images/characters/3/543830.jpg?s=3858a5427b608eacb5f5d689906711f1",
+            "price": 0
+          },
+          {
+            "name": "Puri-Puri Prisoner",
+            "image": "https://cdn.myanimelist.net/images/characters/15/296951.jpg?s=67627c9c169a49e7c66799f82204a47b",
+            "price": 0
+          },
+          {
+            "name": "Edward, Newgate",
+            "image": "https://cdn.myanimelist.net/images/characters/3/100236.jpg?s=7d8b2cff3cdb3b4cae84ff79ddf906cf",
+            "price": 0
+          },
+          {
+            "name": "Tony Tony, Chopper",
+            "image": "https://cdn.myanimelist.net/images/characters/3/100536.jpg?s=9536cd3e6fe65064a110b8d8b2f2808e",
+            "price": 0
+          },
+          {
+            "name": "Neferpitou",
+            "image": "https://cdn.myanimelist.net/images/characters/12/253673.jpg?s=1800b6a0931f971d9c6d47b9ca1cae1c",
+            "price": 0
+          }
+        ]
+      }
+    ],
+    "score": {
+      "p1": 2,
+      "p2": 1
+    },
+    "scorers": {
+      "p1": [
+        "Monkey D., Luffy",
+        "Kozuki, Oden"
+      ],
+      "p2": [
+        "Tony Tony, Chopper"
+      ]
+    },
+    "date": "2026-07-29T09:31:51.876Z"
+  },
+  {
+    "mode": "dealnodeal",
+    "players": [
+      {
+        "name": "طنبا",
+        "power": 299,
+        "squad": [
+          {
+            "name": "Elric, Alphonse",
+            "image": "https://cdn.myanimelist.net/images/characters/5/54265.jpg?s=65c1a674adae3d7c5740d5711517285a",
+            "price": 0,
+            "category": "الحارس"
+          },
+          {
+            "name": "Itadori, Yuuji",
+            "image": "https://cdn.myanimelist.net/images/characters/6/467646.jpg?s=9e1cb7b0c6c7f145661e8ee93f32215d",
+            "price": 0,
+            "category": "المدافع"
+          },
+          {
+            "name": "Reg",
+            "image": "https://cdn.myanimelist.net/images/characters/4/326001.jpg?s=ad9743f65002c677dd3cc12643318906",
+            "price": 0,
+            "category": "لاعب الوسط"
+          },
+          {
+            "name": "Tony Tony, Chopper",
+            "image": "https://cdn.myanimelist.net/images/characters/3/100536.jpg?s=9536cd3e6fe65064a110b8d8b2f2808e",
+            "price": 0,
+            "category": "المهاجم"
+          },
+          {
+            "name": "Kuchiki, Rukia",
+            "image": "https://cdn.myanimelist.net/images/characters/2/78215.jpg?s=2a0f7f516f3e5b213833e9f9a9de4a51",
+            "price": 0,
+            "category": "المدرب"
+          }
+        ]
+      },
+      {
+        "name": "عصام",
+        "power": 285,
+        "squad": [
+          {
+            "name": "Inoue, Orihime",
+            "image": "https://cdn.myanimelist.net/images/characters/9/505076.jpg?s=bf526e705495c0698997a2f8b9e3d6f9",
+            "price": 0,
+            "category": "الحارس"
+          },
+          {
+            "name": "Hashibira, Inosuke",
+            "image": "https://cdn.myanimelist.net/images/characters/3/329560.jpg?s=5ef0629d3641cd02eaeaf7d4df9ea4c2",
+            "price": 0,
+            "category": "المدافع"
+          },
+          {
+            "name": "Usopp",
+            "image": "https://cdn.myanimelist.net/images/characters/16/188076.jpg?s=f24eccad7d76e7747895a9a945d8a3ed",
+            "price": 0,
+            "category": "لاعب الوسط"
+          },
+          {
+            "name": "Sado, Yasutora",
+            "image": "https://cdn.myanimelist.net/images/characters/2/102739.jpg?s=62a1f21a246934b22b8e46a8db7259bf",
+            "price": 0,
+            "category": "المهاجم"
+          },
+          {
+            "name": "Yuuki, Asuna",
+            "image": "https://cdn.myanimelist.net/images/characters/15/262053.jpg?s=449153df46cce80307c9f8ae622b4514",
+            "price": 0,
+            "category": "المدرب"
+          }
+        ]
+      }
+    ],
+    "score": {
+      "p1": 1,
+      "p2": 3
+    },
+    "scorers": {
+      "p1": [
+        "Kuchiki, Rukia"
+      ],
+      "p2": [
+        "Sado, Yasutora",
+        "Usopp",
+        "Usopp"
+      ]
+    },
+    "date": "2026-07-29T08:32:02.200Z"
+  },
+  {
+    "mode": "dealnodeal",
+    "players": [
+      {
+        "name": "طنبا",
+        "power": 435,
+        "squad": [
+          {
+            "name": "Elric, Alphonse",
+            "image": "https://cdn.myanimelist.net/images/characters/5/54265.jpg?s=65c1a674adae3d7c5740d5711517285a",
+            "price": 0,
+            "category": "الحارس"
+          },
+          {
+            "name": "Inoue, Orihime",
+            "image": "https://cdn.myanimelist.net/images/characters/9/505076.jpg?s=bf526e705495c0698997a2f8b9e3d6f9",
+            "price": 0,
+            "category": "المدافع"
+          },
+          {
+            "name": "Ackerman, Mikasa",
+            "image": "https://cdn.myanimelist.net/images/characters/9/215563.jpg?s=5b0650bb09a7e053afc6bad84ab48947",
+            "price": 0,
+            "category": "لاعب الوسط"
+          },
+          {
+            "name": "Itadori, Yuuji",
+            "image": "https://cdn.myanimelist.net/images/characters/6/467646.jpg?s=9e1cb7b0c6c7f145661e8ee93f32215d",
+            "price": 0,
+            "category": "المهاجم"
+          },
+          {
+            "name": "Gojou, Satoru",
+            "image": "https://cdn.myanimelist.net/images/characters/15/422168.jpg?s=7c1dfc26a9b3a6652da616a0fec7af01",
+            "price": 0,
+            "category": "المدرب"
+          }
+        ]
+      },
+      {
+        "name": "عصام",
+        "power": 631,
+        "squad": [
+          {
+            "name": "Kurapika",
+            "image": "https://cdn.myanimelist.net/images/characters/3/549312.jpg?s=fc4bb9699591fdf742c7fee5593c961e",
+            "price": 0,
+            "category": "الحارس"
+          },
+          {
+            "name": "Monkey D., Luffy",
+            "image": "https://cdn.myanimelist.net/images/characters/9/310307.jpg?s=3a27ab33bee665febfba970f24f203ba",
+            "price": 0,
+            "category": "المدافع"
+          },
+          {
+            "name": "Fushiguro, Megumi",
+            "image": "https://cdn.myanimelist.net/images/characters/12/621887.jpg?s=fb8e12884d38886ba643f4f2509b22d6",
+            "price": 0,
+            "category": "لاعب الوسط"
+          },
+          {
+            "name": "Lawliet, L",
+            "image": "https://cdn.myanimelist.net/images/characters/10/249647.jpg?s=95cecc21f3db10318c68a0863f0132c8",
+            "price": 0,
+            "category": "المهاجم"
+          },
+          {
+            "name": "Uchiha, Sasuke",
+            "image": "https://cdn.myanimelist.net/images/characters/9/131317.jpg?s=9705c17dba36c2edebded3a72dc1a46e",
+            "price": 0,
+            "category": "المدرب"
+          }
+        ]
+      }
+    ],
+    "score": {
+      "p1": 1,
+      "p2": 4
+    },
+    "scorers": {
+      "p1": [
+        "Gojou, Satoru"
+      ],
+      "p2": [
+        "Kurapika",
+        "Kurapika",
+        "Monkey D., Luffy",
+        "Lawliet, L"
+      ]
+    },
+    "date": "2026-07-29T08:09:38.806Z"
+  },
+  {
+    "players": [
+      {
+        "name": "طنبا",
+        "budgetLeft": 114,
+        "power": 1201,
+        "squad": [
+          {
+            "name": "Kamado, Tanjirou",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/6/386735.jpg?s=7327e90f2310ececd18696cd4aa2ff4e"
+          },
+          {
+            "name": "Paladiknight, Leorio",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/11/549311.jpg?s=ba86161de766b11580c7fbdf23849cbc"
+          },
+          {
+            "name": "Sanji",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/5/136769.jpg?s=52b8fdfc38114a389d83dd5301842556"
+          },
+          {
+            "name": "Uchiha, Sasuke",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/9/131317.jpg?s=9705c17dba36c2edebded3a72dc1a46e"
+          },
+          {
+            "name": "Haruno, Sakura",
+            "price": 1,
+            "image": "https://cdn.myanimelist.net/images/characters/9/69275.jpg?s=36c4ad9f4440d77918c34c49870e719c"
+          },
+          {
+            "name": "Freecss, Gon",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/11/174517.jpg?s=c8133cf450dc6bf13ba52d6781759101"
+          },
+          {
+            "name": "Uzumaki, Naruto",
+            "price": 33,
+            "image": "https://cdn.myanimelist.net/images/characters/2/284121.jpg?s=3ebac88ad166bf105d8f04894f3fb469"
+          },
+          {
+            "name": "Elric, Edward",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/9/72533.jpg?s=d38cf4e2e5cbb46ddaf2b23345a03eae"
+          },
+          {
+            "name": "Brook",
+            "price": 1,
+            "image": "https://cdn.myanimelist.net/images/characters/10/161005.jpg?s=8e3191d4d9691fffe3dafaefaf086014"
+          },
+          {
+            "name": "Zoldyck, Killua",
+            "price": 50,
+            "image": "https://cdn.myanimelist.net/images/characters/2/327920.jpg?s=afd533ace6e7ce81ccf877d3d97880bb"
+          },
+          {
+            "name": "Yagami, Light",
+            "price": 1,
+            "image": "https://cdn.myanimelist.net/images/characters/6/63870.jpg?s=3adaed92c13123a9649ccc0cc6551f7d"
+          }
+        ]
+      },
+      {
+        "name": "عصام",
+        "budgetLeft": 152,
+        "power": 1190,
+        "squad": [
+          {
+            "name": "Hatake, Kakashi",
+            "price": 25,
+            "image": "https://cdn.myanimelist.net/images/characters/7/284129.jpg?s=b0a6b941fd427cbfd85657f316c0e309"
+          },
+          {
+            "name": "Arlert, Armin",
+            "price": 1,
+            "image": "https://cdn.myanimelist.net/images/characters/8/220267.jpg?s=afa2751e2201aba1f5179544e787ba1a"
+          },
+          {
+            "name": "Monkey D., Luffy",
+            "price": 15,
+            "image": "https://cdn.myanimelist.net/images/characters/9/310307.jpg?s=3a27ab33bee665febfba970f24f203ba"
+          },
+          {
+            "name": "Kurapika",
+            "price": 5,
+            "image": "https://cdn.myanimelist.net/images/characters/3/549312.jpg?s=fc4bb9699591fdf742c7fee5593c961e"
+          },
+          {
+            "name": "Ryuk",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/10/59125.jpg?s=e258ccc6e6f6ed00c837b5ae8bced941"
+          },
+          {
+            "name": "Lawliet, L",
+            "price": 1,
+            "image": "https://cdn.myanimelist.net/images/characters/10/249647.jpg?s=95cecc21f3db10318c68a0863f0132c8"
+          },
+          {
+            "name": "Kamado, Nezuko",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/2/378254.jpg?s=c3cdc50f2d9f3b30e4453c8ca1f8460f"
+          },
+          {
+            "name": "Ackerman, Mikasa",
+            "price": 1,
+            "image": "https://cdn.myanimelist.net/images/characters/9/215563.jpg?s=5b0650bb09a7e053afc6bad84ab48947"
+          },
+          {
+            "name": "Gojou, Satoru",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/15/422168.jpg?s=7c1dfc26a9b3a6652da616a0fec7af01"
+          },
+          {
+            "name": "Itadori, Yuuji",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/6/467646.jpg?s=9e1cb7b0c6c7f145661e8ee93f32215d"
+          },
+          {
+            "name": "Franky",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/13/210053.jpg?s=58f71be3af78384ac43869b8c681efaf"
+          }
+        ]
+      }
+    ],
+    "score": {
+      "p1": 1,
+      "p2": 1
+    },
+    "date": "2026-07-29T07:20:23.468Z"
+  },
+  {
+    "players": [
+      {
+        "name": "طنبا",
+        "budgetLeft": 145,
+        "power": 851,
+        "squad": [
+          {
+            "name": "Nami",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/6/59914.jpg?s=302fa4565e9cbd5368b6ca4da51e1a0c"
+          },
+          {
+            "name": "Shiina, Mayuri",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/4/131329.jpg?s=ff82135c773b4903f6cae50c1d43ca26"
+          },
+          {
+            "name": "Kurapika",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/3/549312.jpg?s=fc4bb9699591fdf742c7fee5593c961e"
+          },
+          {
+            "name": "Kirigaya, Suguha",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/9/192515.jpg?s=61eedc4ceb95b186ae903a1e00e2bbea"
+          },
+          {
+            "name": "Jinbe",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/15/307148.jpg?s=20f8bf1d3a9854be84b67367849b1322"
+          },
+          {
+            "name": "Hatake, Kakashi",
+            "price": 55,
+            "image": "https://cdn.myanimelist.net/images/characters/7/284129.jpg?s=b0a6b941fd427cbfd85657f316c0e309"
+          },
+          {
+            "name": "Okabe, Rintarou",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/6/122643.jpg?s=b5ae0b297aefb93f19186e9edfdaee83"
+          },
+          {
+            "name": "Inoue, Orihime",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/9/505076.jpg?s=bf526e705495c0698997a2f8b9e3d6f9"
+          },
+          {
+            "name": "Kugisaki, Nobara",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/12/422313.jpg?s=053db48815610ce7fdc280f62a3499ce"
+          },
+          {
+            "name": "Migi",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/12/348176.jpg?s=c378b81123b922b107c831c2c8b8db51"
+          },
+          {
+            "name": "Gojou, Satoru",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/15/422168.jpg?s=7c1dfc26a9b3a6652da616a0fec7af01"
+          }
+        ]
+      },
+      {
+        "name": "خيرى",
+        "budgetLeft": 86,
+        "power": 1081,
+        "squad": [
+          {
+            "name": "Uzumaki, Naruto",
+            "price": 24,
+            "image": "https://cdn.myanimelist.net/images/characters/2/284121.jpg?s=3ebac88ad166bf105d8f04894f3fb469"
+          },
+          {
+            "name": "Sado, Yasutora",
+            "price": 1,
+            "image": "https://cdn.myanimelist.net/images/characters/2/102739.jpg?s=62a1f21a246934b22b8e46a8db7259bf"
+          },
+          {
+            "name": "Haruno, Sakura",
+            "price": 2,
+            "image": "https://cdn.myanimelist.net/images/characters/9/69275.jpg?s=36c4ad9f4440d77918c34c49870e719c"
+          },
+          {
+            "name": "Makise, Kurisu",
+            "price": 5,
+            "image": "https://cdn.myanimelist.net/images/characters/10/310993.jpg?s=8b6ac0bceca29d7ed906004cd243c0a0"
+          },
+          {
+            "name": "Elric, Edward",
+            "price": 10,
+            "image": "https://cdn.myanimelist.net/images/characters/9/72533.jpg?s=d38cf4e2e5cbb46ddaf2b23345a03eae"
+          },
+          {
+            "name": "Agatsuma, Zenitsu",
+            "price": 0,
+            "image": "https://cdn.myanimelist.net/images/characters/10/459689.jpg?s=d5ccecc4a7b9e2118acb849a2062a84c"
+          },
+          {
+            "name": "Itadori, Yuuji",
+            "price": 25,
+            "image": "https://cdn.myanimelist.net/images/characters/6/467646.jpg?s=9e1cb7b0c6c7f145661e8ee93f32215d"
+          },
+          {
+            "name": "Nico, Robin",
+            "price": 1,
+            "image": "https://cdn.myanimelist.net/images/characters/16/363700.jpg?s=3e7fa6074c0d30c8bede3905680e983c"
+          },
+          {
+            "name": "Roronoa, Zoro",
+            "price": 15,
+            "image": "https://cdn.myanimelist.net/images/characters/3/100534.jpg?s=4a00840eacc26e9ad86bae6f505e4826"
+          },
+          {
+            "name": "Riko",
+            "price": 1,
+            "image": "https://cdn.myanimelist.net/images/characters/4/326000.jpg?s=a7a70843c313b910afad4ced29a947f3"
+          },
+          {
+            "name": "Ryuk",
+            "price": 30,
+            "image": "https://cdn.myanimelist.net/images/characters/10/59125.jpg?s=e258ccc6e6f6ed00c837b5ae8bced941"
+          }
+        ]
+      }
+    ],
+    "score": {
+      "p1": 1,
+      "p2": 3
+    },
+    "date": "2026-07-29T03:08:32.141Z"
+  }
+]
