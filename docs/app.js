@@ -77,15 +77,8 @@ async function startDraft() {
   }, 400);
 
   try {
-    const res = await fetch(`/api/pool?count=${total}`);
+    state.pool = await getRandomPricedPool(total);
     clearInterval(tick);
-    if (!res.ok) {
-      const err = await res.json().catch(() => ({}));
-      loadingText.textContent = 'حصل خطأ في تحميل الشخصيات: ' + (err.error || res.status);
-      return;
-    }
-    const data = await res.json();
-    state.pool = data.pool;
     progressBar.style.width = '100%';
     setTimeout(() => {
       document.getElementById('p1NameLabel').textContent = state.players[0].name;
@@ -305,8 +298,7 @@ async function loadHistory() {
   const list = document.getElementById('historyList');
   list.innerHTML = 'جاري التحميل...';
   try {
-    const res = await fetch('/api/history');
-    const data = await res.json();
+    const data = getHistoryRecords();
     if (!data.length) {
       list.innerHTML = '<p>مفيش مباريات متسجلة لسه.</p>';
       return;

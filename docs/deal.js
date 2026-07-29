@@ -78,15 +78,9 @@ async function startGame() {
   }, 400);
 
   try {
-    const res = await fetch('/api/pool?count=40');
+    const pool = await getRandomPricedPool(40);
     clearInterval(tick);
-    if (!res.ok) {
-      const err = await res.json().catch(() => ({}));
-      loadingText.textContent = 'حصل خطأ في تحميل الشخصيات: ' + (err.error || res.status);
-      return;
-    }
-    const data = await res.json();
-    buildBoxSets(data.pool);
+    buildBoxSets(pool);
     progressBar.style.width = '100%';
     setTimeout(() => {
       showScreen('game');

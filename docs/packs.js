@@ -51,15 +51,9 @@ async function startGame() {
   }, 400);
 
   try {
-    const res = await fetch(`/api/pool?count=${TOTAL_NEEDED}`);
+    const pool = await getFullCharacterDatabase();
     clearInterval(tick);
-    if (!res.ok) {
-      const err = await res.json().catch(() => ({}));
-      loadingText.textContent = 'حصل خطأ في تحميل الشخصيات: ' + (err.error || res.status);
-      return;
-    }
-    const data = await res.json();
-    buildPacks(data.pool);
+    buildPacks(pool);
     progressBar.style.width = '100%';
     setTimeout(() => {
       showScreen('packs');

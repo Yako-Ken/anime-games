@@ -15,6 +15,46 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
+let _characterDbCache = null;
+
+async function loadCharacterDatabase() {
+  if (_characterDbCache) return _characterDbCache;
+  const res = await fetch('characters.json');
+  if (!res.ok) throw new Error('Failed to load characters.json: ' + res.status);
+  _characterDbCache = await res.json();
+  return _characterDbCache;
+}
+
+// Same rank-based pricing curve the old server used: most-favorited character in the
+// SAMPLE lands near 150, least favorited near 1, curved (not linear) so a handful of
+// "superstars" stand out.
+function assignPricesByRank(characters) {
+  const sorted = [...characters].sort((a, b) => b.favorites - a.favorites);
+  const n = sorted.length;
+  return sorted.map((c, i) => {
+    const percentile = n <= 1 ? 0 : i / (n - 1);
+    const curved = Math.pow(1 - percentile, 2.2);
+    const jitter = Math.floor(Math.random() * 7) - 3;
+    const price = Math.round(curved * 149) + 1 + jitter;
+    return { ...c, price: Math.min(150, Math.max(1, price)) };
+  });
+}
+
+// Returns `count` random characters from the database, each with a `price` assigned.
+// Throws if the database has fewer than `count` characters (caller should catch).
+async function getRandomPricedPool(count) {
+  const db = await loadCharacterDatabase();
+  if (db.length < count) throw new Error(`Not enough characters (have ${db.length}, need ${count})`);
+  const sample = shuffle([...db]).slice(0, count);
+  return shuffle(assignPricesByRank(sample));
+}
+
+// Returns the full raw database (unshuffled, no price field) for callers that do
+// their own sampling logic (e.g. sorting by favorites for "headliner" characters).
+async function getFullCharacterDatabase() {
+  return loadCharacterDatabase();
+}
+
 function tallyScorers(names) {
   const counts = new Map();
   for (const name of names) counts.set(name, (counts.get(name) || 0) + 1);
@@ -120,13 +160,23 @@ function renderMatchScreen(p1Name, p2Name, result) {
   renderScorers(p1Name, p2Name, scorers1, scorers2);
 }
 
-async function postHistory(record) {
+const HISTORY_STORAGE_KEY = 'animeGamesHistory';
+
+function getHistoryRecords() {
   try {
-    await fetch('/api/history', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(record),
-    });
+    const raw = localStorage.getItem(HISTORY_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function postHistory(record) {
+  try {
+    record.date = new Date().toISOString();
+    const list = getHistoryRecords();
+    list.unshift(record);
+    localStorage.setItem(HISTORY_STORAGE_KEY, JSON.stringify(list.slice(0, 200)));
   } catch (e) {
     console.warn('could not save history', e);
   }
