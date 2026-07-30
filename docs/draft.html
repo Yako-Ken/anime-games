@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>درافت الأنمي — لعبة تشكيلة الشخصيات</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <h1>⚔️ درافت الأنمي</h1>
+  <nav>
+    <button id="navPlay" class="navbtn active">اللعبة</button>
+    <button id="navHistory" class="navbtn">السجل</button>
+    <a href="deal.html" class="navbtn">🎁 صناديق الأنمي</a>
+    <a href="packs.html" class="navbtn">📦 تحدي الباكات</a>
+    <a href="index.html" class="navbtn">🌍 العالم</a>
+  </nav>
+</header>
+
+<main id="app">
+
+  <!-- SETUP SCREEN -->
+  <section id="screen-setup" class="screen active">
+    <div class="card">
+      <h2>إعدادات اللعبة</h2>
+      <label>اسم اللاعب الأول
+        <input id="p1Name" type="text" placeholder="مثال: أحمد" maxlength="20">
+      </label>
+      <label>اسم اللاعب الثاني
+        <input id="p2Name" type="text" placeholder="مثال: محمد" maxlength="20">
+      </label>
+      <label>عدد الشخصيات لكل لاعب
+        <input id="squadSize" type="number" min="3" max="15" value="11">
+      </label>
+      <label>الميزانية لكل لاعب (مليون)
+        <input id="budget" type="number" min="10" max="1000" value="200">
+      </label>
+      <button id="startBtn" class="primary-btn">ابدأ الدرافت 🎴</button>
+      <p class="hint">هيتم تحميل الشخصيات عشوائي من قاعدة بيانات مجانية (Jikan / MyAnimeList) — محتاج إنترنت لتحميل الصور والأسماء.</p>
+    </div>
+  </section>
+
+  <!-- LOADING SCREEN -->
+  <section id="screen-loading" class="screen">
+    <div class="card center">
+      <div class="spinner"></div>
+      <p id="loadingText">جاري تحميل الشخصيات...</p>
+      <div class="progress"><div id="progressBar" class="progress-fill"></div></div>
+    </div>
+  </section>
+
+  <!-- DRAFT SCREEN -->
+  <section id="screen-draft" class="screen">
+    <div class="draft-top">
+      <div class="player-panel" id="panelP1">
+        <h3 id="p1NameLabel"></h3>
+        <div class="budget">💰 <span id="p1Budget"></span> M</div>
+        <div class="squad-grid" id="p1Squad"></div>
+      </div>
+
+      <div class="turn-indicator">
+        <div id="turnLabel">دور اللاعب</div>
+        <div id="turnArrow">⬇️</div>
+      </div>
+
+      <div class="player-panel" id="panelP2">
+        <h3 id="p2NameLabel"></h3>
+        <div class="budget">💰 <span id="p2Budget"></span> M</div>
+        <div class="squad-grid" id="p2Squad"></div>
+      </div>
+    </div>
+
+    <div class="auction-card" id="auctionCard">
+      <div class="auction-counter" id="auctionCounter"></div>
+      <img id="auctionImg" src="" alt="">
+      <div class="auction-name" id="auctionName"></div>
+
+      <div class="bid-status">
+        <div id="bidAmountLabel" class="bid-amount">لسه محدش زايد</div>
+        <div id="bidLeaderLabel" class="bid-leader"></div>
+      </div>
+
+      <div class="bid-turn" id="bidTurnLabel"></div>
+
+      <div class="bid-controls">
+        <button class="bid-btn" data-inc="1">+1M</button>
+        <button class="bid-btn" data-inc="5">+5M</button>
+        <button class="bid-btn" data-inc="10">+10M</button>
+        <button class="bid-btn" data-inc="25">+25M</button>
+        <input id="customBidInput" type="number" min="1" placeholder="مبلغ مخصص">
+        <button id="customBidBtn" class="bid-btn">زايد بالمبلغ</button>
+      </div>
+
+      <button id="passBtn" class="pass-btn">🚫 انسحب من المزاد</button>
+    </div>
+  </section>
+
+  <!-- MATCH RESULT SCREEN -->
+  <section id="screen-match" class="screen">
+    <div class="card center">
+      <h2>⚽ نتيجة المباراة</h2>
+      <div class="match-score">
+        <div class="match-side">
+          <div id="matchP1Name" class="match-name"></div>
+          <div id="matchP1Power" class="power"></div>
+        </div>
+        <div id="matchScore" class="score">? - ?</div>
+        <div class="match-side">
+          <div id="matchP2Name" class="match-name"></div>
+          <div id="matchP2Power" class="power"></div>
+        </div>
+      </div>
+      <div id="matchWinner" class="winner"></div>
+
+      <div class="scorers-box">
+        <div class="scorers-col">
+          <h4>⚽ أهداف <span id="scorersP1Name"></span></h4>
+          <ul id="scorersP1List" class="scorers-list"></ul>
+        </div>
+        <div class="scorers-col">
+          <h4>⚽ أهداف <span id="scorersP2Name"></span></h4>
+          <ul id="scorersP2List" class="scorers-list"></ul>
+        </div>
+      </div>
+
+      <div class="motm-box" id="motmBox">
+        <div class="motm-label">🌟 نجم المباراة</div>
+        <img id="motmImg" src="" alt="">
+        <div id="motmName" class="motm-name"></div>
+        <div id="motmDetail" class="motm-detail"></div>
+      </div>
+
+      <button id="newGameBtn" class="primary-btn">لعبة جديدة 🔁</button>
+    </div>
+  </section>
+
+  <!-- HISTORY SCREEN -->
+  <section id="screen-history" class="screen">
+    <div class="card">
+      <h2>سجل المباريات السابقة</h2>
+      <div id="historyList"></div>
+    </div>
+  </section>
+
+</main>
+
+<script src="common.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

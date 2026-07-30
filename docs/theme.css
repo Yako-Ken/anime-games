@@ -1,0 +1,40 @@
+.theme-intro {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.theme-intro h2 { margin-bottom: 8px; }
+.theme-intro .hint { color: var(--muted); font-size: 14px; max-width: 500px; margin: 0 auto; }
+
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.theme-card {
+  background: var(--panel);
+  border: 2px solid transparent;
+  border-radius: 18px;
+  padding: 28px 20px;
+  text-align: center;
+  cursor: pointer;
+  color: var(--text);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+.theme-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent2);
+}
+
+.theme-emoji { font-size: 48px; margin-bottom: 10px; }
+.theme-name { font-size: 20px; font-weight: bold; margin-bottom: 8px; }
+.theme-desc { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+.theme-note {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--accent2);
+  font-size: 13px;
+}

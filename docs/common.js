@@ -16,13 +16,36 @@ function escapeHtml(str) {
 }
 
 let _characterDbCache = null;
+let _characterDbCacheTheme = null;
+
+function getGameTheme() {
+  return localStorage.getItem('gameTheme') || 'anime';
+}
+
+function getThemeDatabaseFile(theme) {
+  return theme === 'ml' ? 'characters-ml.json' : 'characters.json';
+}
 
 async function loadCharacterDatabase() {
-  if (_characterDbCache) return _characterDbCache;
-  const res = await fetch('characters.json');
-  if (!res.ok) throw new Error('Failed to load characters.json: ' + res.status);
+  const theme = getGameTheme();
+  if (_characterDbCache && _characterDbCacheTheme === theme) return _characterDbCache;
+  const file = getThemeDatabaseFile(theme);
+  const res = await fetch(file);
+  if (!res.ok) throw new Error(`Failed to load ${file}: ${res.status}`);
   _characterDbCache = await res.json();
+  _characterDbCacheTheme = theme;
   return _characterDbCache;
+}
+
+// Friendly Arabic error message for the loading-screen catch blocks in
+// app.js/deal.js/packs.js — an empty/too-small theme database (e.g. Mobile
+// Legends before its data file is filled in) is a very different situation
+// from a real network failure, so it gets its own message.
+function poolLoadErrorMessage(e) {
+  if (getGameTheme() === 'ml') {
+    return 'قاعدة بيانات موبايل ليجند لسه فاضية أو ناقصة شخصيات — ضيف شخصيات في characters-ml.json الأول.';
+  }
+  return 'تعذر تحميل الشخصيات: ' + (e?.message || 'حصل خطأ غير متوقع') + '. تأكد إن عندك إنترنت.';
 }
 
 // Same rank-based pricing curve the old server used: most-favorited character in the

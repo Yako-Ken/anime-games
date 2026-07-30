@@ -61,7 +61,7 @@ async function startGame() {
     }, 300);
   } catch (e) {
     clearInterval(tick);
-    loadingText.textContent = 'تعذر الاتصال بالسيرفر المحلي أو بـ Jikan API. تأكد إن عندك إنترنت.';
+    loadingText.textContent = poolLoadErrorMessage(e);
   }
 }
 
