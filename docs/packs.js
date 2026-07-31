@@ -115,11 +115,13 @@ function buildPacks(poolFlat) {
     return;
   }
 
-  // Each pack is fronted by a real headline star (the 6 most-favorited characters
-  // overall), guaranteed to be inside that pack's lineup — the rest is random,
-  // same as the show's "Lewandowski pack" / "Bale pack" branding.
+  // Each pack is fronted by a real headline star, guaranteed to be inside that
+  // pack's lineup — the rest is random, same as the show's "Lewandowski pack" /
+  // "Bale pack" branding. Headliners are picked RANDOMLY from the famous end of
+  // the database (not always the same global top-6), so they vary every game.
   const sortedByFame = [...poolFlat].sort((a, b) => (b.favorites || 0) - (a.favorites || 0));
-  const headliners = sortedByFame.slice(0, 6);
+  const famousCandidates = sortedByFame.slice(0, Math.max(6, Math.ceil(sortedByFame.length * 0.4)));
+  const headliners = shuffle([...famousCandidates]).slice(0, 6);
   const headlinerIds = new Set(headliners.map(c => c.mal_id));
   const rest = shuffle(poolFlat.filter(c => !headlinerIds.has(c.mal_id)));
 
