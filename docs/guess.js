@@ -117,6 +117,9 @@ function startRound() {
   document.getElementById('hintsList').innerHTML = '';
   document.getElementById('p1CorrectBtn').disabled = false;
   document.getElementById('p2CorrectBtn').disabled = false;
+  document.getElementById('answerImg').src = state.currentChar.image;
+  document.getElementById('answerImg').alt = state.currentChar.name;
+  document.getElementById('answerName').textContent = state.currentChar.name;
 
   showScreen('round');
   revealNextHint();
