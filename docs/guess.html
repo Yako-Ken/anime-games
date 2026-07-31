@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>خمّن يا صديق</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="guess.css">
+</head>
+<body>
+
+<header class="topbar">
+  <h1>❓ خمّن يا صديق</h1>
+  <nav>
+    <a href="draft.html" class="navbtn">⚔️ الدرافت</a>
+    <a href="deal.html" class="navbtn">🎁 الصناديق</a>
+    <a href="packs.html" class="navbtn">📦 الباكات</a>
+    <a href="draft.html?tab=history" class="navbtn">📜 السجل</a>
+    <a href="index.html" class="navbtn">🌍 العالم</a>
+  </nav>
+</header>
+
+<main id="app">
+
+  <!-- SETUP -->
+  <section id="screen-setup" class="screen active">
+    <div class="card">
+      <h2>إعدادات اللعبة</h2>
+      <label>اسم اللاعب الأول
+        <input id="p1Name" type="text" placeholder="مثال: أحمد" maxlength="20">
+      </label>
+      <label>اسم اللاعب الثاني
+        <input id="p2Name" type="text" placeholder="مثال: زياد" maxlength="20">
+      </label>
+      <button id="startBtn" class="primary-btn">ابدأ اللعبة ❓</button>
+      <p class="hint">
+        في كل جولة، اللعبة بتختار شخصية سرية عشوائية وتديكم 5 هينتات عليها واحد ورا التاني (من العام للخاص).
+        كل هينت له 60 ثانية. اللاعبين بيقولوا تخمينهم بصوت عالي، والحكم (اللي ماسك الشاشة) هو اللي بيقرر التخمين
+        صح ولا غلط ويدوس زرار الهينت الجاي. أول واحد يخمن صح ياخد الجولة.
+      </p>
+    </div>
+  </section>
+
+  <!-- LOADING -->
+  <section id="screen-loading" class="screen">
+    <div class="card center">
+      <div class="spinner"></div>
+      <p id="loadingText">جاري تحميل الشخصيات...</p>
+      <div class="progress"><div id="progressBar" class="progress-fill"></div></div>
+    </div>
+  </section>
+
+  <!-- ROUND -->
+  <section id="screen-round" class="screen">
+    <div class="score-bar">
+      <div class="score-side p1"><span id="p1NameLabel"></span> <b id="p1ScoreLabel">0</b></div>
+      <div class="round-label">جولة <span id="roundNumLabel">1</span></div>
+      <div class="score-side p2"><span id="p2NameLabel"></span> <b id="p2ScoreLabel">0</b></div>
+    </div>
+
+    <div class="guess-card">
+      <div class="timer-ring">
+        <div id="timerNum" class="timer-num">60</div>
+      </div>
+
+      <div id="hintsList" class="hints-list"></div>
+
+      <div class="judge-actions">
+        <button id="nextHintBtn" class="primary-btn">الهينت الجاي ⏭️</button>
+        <div class="guess-buttons">
+          <button id="p1CorrectBtn" class="guess-btn p1">✅ <span id="p1GuessLabel">اللاعب 1</span> خمن صح</button>
+          <button id="p2CorrectBtn" class="guess-btn p2">✅ <span id="p2GuessLabel">اللاعب 2</span> خمن صح</button>
+        </div>
+        <button id="nobodyBtn" class="pass-btn">🤷 محدش عرف / خلصت الهينتات</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROUND RESULT -->
+  <section id="screen-reveal" class="screen">
+    <div class="card center">
+      <h2 id="revealTitle"></h2>
+      <img id="revealImg" class="reveal-char-img" src="" alt="">
+      <div id="revealName" class="reveal-char-name"></div>
+      <div class="score-bar" style="margin-top:16px;">
+        <div class="score-side p1"><span id="p1NameLabel2"></span> <b id="p1ScoreLabel2">0</b></div>
+        <div class="score-side p2"><span id="p2NameLabel2"></span> <b id="p2ScoreLabel2">0</b></div>
+      </div>
+      <div style="display:flex; gap:10px; margin-top:20px;">
+        <button id="nextRoundBtn" class="primary-btn">الجولة الجاية 🔁</button>
+        <button id="endGameBtn" class="pass-btn">إنهاء اللعبة 🏁</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="common.js"></script>
+<script src="guess.js"></script>
+</body>
+</html>

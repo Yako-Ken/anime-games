@@ -310,17 +310,19 @@ async function loadHistory() {
         const parts = [...counts.entries()].map(([n, c]) => `${escapeHtml(n)}${c > 1 ? ` ×${c}` : ''}`);
         return `<strong>⚽ ${escapeHtml(name)}:</strong> ${parts.join('، ')}`;
       };
-      const modeIcon = rec.mode === 'dealnodeal' ? '🎁' : rec.mode === 'packs' ? '📦' : '⚔️';
+      const modeIcon = rec.mode === 'dealnodeal' ? '🎁' : rec.mode === 'packs' ? '📦' : rec.mode === 'guess' ? '❓' : '⚔️';
+      const hasSquads = Array.isArray(rec.players[0].squad) && Array.isArray(rec.players[1].squad);
       return `
       <div class="hist-item">
         <div class="hist-header">
           <span>${modeIcon} ${escapeHtml(rec.players[0].name)} ${rec.score.p1} - ${rec.score.p2} ${escapeHtml(rec.players[1].name)}</span>
           <span class="hist-date">${new Date(rec.date).toLocaleString('ar-EG')}</span>
         </div>
+        ${hasSquads ? `
         <div class="hist-squads">
           <div><strong>${escapeHtml(rec.players[0].name)}:</strong> ${rec.players[0].squad.map(c => c ? escapeHtml(c.name) : 'فاضي').join('، ')}</div>
           <div><strong>${escapeHtml(rec.players[1].name)}:</strong> ${rec.players[1].squad.map(c => c ? escapeHtml(c.name) : 'فاضي').join('، ')}</div>
-        </div>
+        </div>` : ''}
         ${rec.scorers ? `
         <div class="hist-squads">
           <div>${scorersLine(rec.players[0].name, rec.scorers.p1)}</div>
