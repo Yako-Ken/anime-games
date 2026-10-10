@@ -18,6 +18,7 @@ const state = {
     { name: 'اللاعب 2', score: 0 },
   ],
   pool: [],
+  hintBank: null,
   round: 0,
   currentChar: null,
   hints: [],
@@ -53,6 +54,10 @@ async function startGame() {
     state.pool = await getFullCharacterDatabase();
     clearInterval(tick);
     if (state.pool.length < 5) throw new Error('Not enough characters (have ' + state.pool.length + ')');
+    try {
+      const res = await fetch('guess-hints.json');
+      if (res.ok) state.hintBank = await res.json();
+    } catch (e) { state.hintBank = null; }
     progressBar.style.width = '100%';
     document.getElementById('p1GuessLabel').textContent = p1;
     document.getElementById('p2GuessLabel').textContent = p2;
@@ -63,33 +68,39 @@ async function startGame() {
   }
 }
 
-// From vague to specific, using only data every character in the database
-// already has (name, source series, popularity rank) — no live AI call needed
-// since this is a static site with no backend to hide an API key behind.
+// Curated hard hints from guess-hints.json when available (keyed by exact
+// name); otherwise deductive fallback hints (rank, same-world comparison)
+// — never fame-tier labels, never letter counting.
 function generateHints(char, pool) {
+  const bank = state.hintBank;
+  if (bank && Array.isArray(bank[char.name]) && bank[char.name].length >= 3) {
+    return bank[char.name].slice(0, 5);
+  }
+  const fallback = (bank && Array.isArray(bank.__default__) && bank.__default__.length)
+    ? bank.__default__.map(h => h.split('{anime}').join(char.anime))
+    : [];
+  return [...generateBasicHints(char, pool), ...fallback].slice(0, 5);
+}
+
+function popularityRank(char, pool) {
   const sorted = [...pool].sort((a, b) => (b.favorites || 0) - (a.favorites || 0));
-  const rank = sorted.findIndex(c => c.mal_id === char.mal_id);
-  const percentile = pool.length <= 1 ? 0 : rank / (pool.length - 1);
+  return sorted.findIndex(c => c.mal_id === char.mal_id) + 1;
+}
 
-  let tier;
-  if (percentile <= 0.1) tier = 'شخصية أسطورية معروفة لكل حد تقريبًا';
-  else if (percentile <= 0.35) tier = 'شخصية مشهورة جدًا';
-  else if (percentile <= 0.65) tier = 'شخصية معروفة بس مش من الأشهر';
-  else tier = 'شخصية مش معروفة أوي — تحدي حقيقي';
-
-  const cleanName = char.name.replace(/[.,]/g, '').replace(/\s+/g, '');
-  const letterCount = cleanName.length;
-  const firstLetter = char.name.trim()[0];
-  const lastLetter = char.name.trim().slice(-1);
+function generateBasicHints(char, pool) {
+  const rank = popularityRank(char, pool);
+  const sameWorld = [...pool]
+    .filter(c => c.anime === char.anime && c.mal_id !== char.mal_id)
+    .sort((a, b) => (b.favorites || 0) - (a.favorites || 0));
+  const top = sameWorld[0];
   const wordCount = char.name.split(/[\s,]+/).filter(Boolean).length;
 
-  return [
-    tier,
-    `الشخصية دي من عالم "${char.anime}"`,
-    `اسمها مكوّن من ${wordCount === 1 ? 'كلمة واحدة' : wordCount + ' كلمات'}، وعدد حروفه ${letterCount} حرف`,
-    `اسمها بيبدأ بحرف "${firstLetter}"`,
-    `اسمها بينتهي بحرف "${lastLetter}"`,
-  ];
+  const out = [`ترتيبها رقم ${rank} من ${pool.length} في الشعبية 🔢`];
+  if (top) out.push(`في عالم "${char.anime}"، "${top.name}" أشهر منها بكتير 👑`);
+  else out.push(`هي الأشهر على الإطلاق في عالم "${char.anime}" 👑`);
+  out.push(`العالم بتاعها هو "${char.anime}" 🌍`);
+  out.push(`اسمها مكوّن من ${wordCount === 1 ? 'كلمة واحدة' : wordCount + ' كلمات'} 📝`);
+  return out;
 }
 
 function pickRandomChar() {

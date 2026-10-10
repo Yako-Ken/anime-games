@@ -19,6 +19,16 @@ const ANIME_TITLES = {
   10087: 'Fate/Zero', 37779: 'The Promised Neverland', 34599: 'Made in Abyss',
   33352: 'Violet Evergarden', 31043: 'Erased', 4224: 'Toradora!', 23273: 'Your Lie in April',
   22535: 'Parasyte -the maxim-',
+  52299: 'Solo Leveling', 58567: 'Solo Leveling',
+  52991: "Frieren: Beyond Journey's End",
+  42249: 'Tokyo Revengers', 50608: 'Tokyo Revengers', 54918: 'Tokyo Revengers',
+  49596: 'Blue Lock', 54865: 'Blue Lock', 54866: 'Blue Lock',
+  52588: 'Kaiju No. 8', 59177: 'Kaiju No. 8',
+  52034: 'Oshi no Ko', 55791: 'Oshi no Ko',
+  57334: 'Dandadan', 60543: 'Dandadan',
+  58939: 'Sakamoto Days',
+  52211: 'Mashle', 55813: 'Mashle',
+  54900: 'Wind Breaker', 59160: 'Wind Breaker',
 };
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }

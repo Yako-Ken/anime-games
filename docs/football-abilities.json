@@ -1,0 +1,2909 @@
+{
+  "Cristiano Ronaldo": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "aerial-power",
+        "icon": "✈️",
+        "name": "Aerial Power",
+        "effect": "finisher",
+        "p": 0.44
+      },
+      {
+        "id": "mr-champions",
+        "icon": "👑",
+        "name": "Mr Champions",
+        "effect": "clutch",
+        "p": 0.42
+      }
+    ]
+  },
+  "Lionel Messi": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "left-foot-magic",
+        "icon": "🪄",
+        "name": "Left-Foot Magic",
+        "effect": "finisher",
+        "p": 0.45
+      },
+      {
+        "id": "goat-dribble",
+        "icon": "🐐",
+        "name": "GOAT Dribble",
+        "effect": "blitz",
+        "p": 0.42
+      }
+    ]
+  },
+  "Pele": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "bicycle-kick",
+        "icon": "🚲",
+        "name": "Bicycle Kick",
+        "effect": "finisher",
+        "p": 0.44
+      },
+      {
+        "id": "king-clutch",
+        "icon": "🏆",
+        "name": "King Clutch",
+        "effect": "clutch",
+        "p": 0.4
+      }
+    ]
+  },
+  "Diego Maradona": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "golden-dribble",
+        "icon": "🌀",
+        "name": "Golden Dribble",
+        "effect": "blitz",
+        "p": 0.42
+      },
+      {
+        "id": "divine-pass",
+        "icon": "👀",
+        "name": "Divine Pass",
+        "effect": "playmaker",
+        "p": 0.44
+      }
+    ]
+  },
+  "Ronaldo Nazario": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "phenomenon-dash",
+        "icon": "🌪️",
+        "name": "Phenomenon Dash",
+        "effect": "blitz",
+        "p": 0.44
+      },
+      {
+        "id": "clinical-strike",
+        "icon": "🎯",
+        "name": "Clinical Strike",
+        "effect": "finisher",
+        "p": 0.42
+      }
+    ]
+  },
+  "Johan Cruyff": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "total-football",
+        "icon": "🧠",
+        "name": "Total Football",
+        "effect": "playmaker",
+        "p": 0.44
+      },
+      {
+        "id": "cruyff-turn",
+        "icon": "🎡",
+        "name": "Cruyff Turn",
+        "effect": "blitz",
+        "p": 0.4
+      }
+    ]
+  },
+  "Zinedine Zidane": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "maestro-vision",
+        "icon": "🎻",
+        "name": "Maestro Vision",
+        "effect": "playmaker",
+        "p": 0.42
+      },
+      {
+        "id": "final-volley",
+        "icon": "💥",
+        "name": "Final Volley",
+        "effect": "finisher",
+        "p": 0.4
+      }
+    ]
+  },
+  "Franz Beckenbauer": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "der-kaiser",
+        "icon": "👑",
+        "name": "Der Kaiser",
+        "effect": "playmaker",
+        "p": 0.42
+      },
+      {
+        "id": "libero-surge",
+        "icon": "🌊",
+        "name": "Libero Surge",
+        "effect": "blitz",
+        "p": 0.36
+      }
+    ]
+  },
+  "Alfredo Di Stefano": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "total-forward",
+        "icon": "🔥",
+        "name": "Total Forward",
+        "effect": "finisher",
+        "p": 0.4
+      },
+      {
+        "id": "final-leader",
+        "icon": "🎖️",
+        "name": "Final Leader",
+        "effect": "clutch",
+        "p": 0.4
+      }
+    ]
+  },
+  "Ferenc Puskas": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "galloping-major",
+        "icon": "🐎",
+        "name": "Galloping Major",
+        "effect": "finisher",
+        "p": 0.42
+      },
+      {
+        "id": "left-cannon",
+        "icon": "💣",
+        "name": "Left Cannon",
+        "effect": "finisher",
+        "p": 0.4
+      }
+    ]
+  },
+  "Kylian Mbappe": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "lightning-sprint",
+        "icon": "⚡",
+        "name": "Lightning Sprint",
+        "effect": "blitz",
+        "p": 0.44
+      },
+      {
+        "id": "cold-finish",
+        "icon": "🧊",
+        "name": "Cold Finish",
+        "effect": "finisher",
+        "p": 0.4
+      }
+    ]
+  },
+  "Paolo Maldini": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "perfect-tackle",
+        "icon": "🛡️",
+        "name": "Perfect Tackle",
+        "effect": "wall",
+        "p": 0.45
+      },
+      {
+        "id": "recovery-pace",
+        "icon": "⚡",
+        "name": "Recovery Pace",
+        "effect": "blitz",
+        "p": 0.36
+      }
+    ]
+  },
+  "Garrincha": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "joy-dribble",
+        "icon": "🎭",
+        "name": "Joy Dribble",
+        "effect": "blitz",
+        "p": 0.42
+      },
+      {
+        "id": "banana-shot",
+        "icon": "🍌",
+        "name": "Banana Shot",
+        "effect": "finisher",
+        "p": 0.38
+      }
+    ]
+  },
+  "Eusebio": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "panther-pace",
+        "icon": "🐆",
+        "name": "Panther Pace",
+        "effect": "blitz",
+        "p": 0.42
+      },
+      {
+        "id": "black-pearl-strike",
+        "icon": "💎",
+        "name": "Black Pearl Strike",
+        "effect": "finisher",
+        "p": 0.4
+      }
+    ]
+  },
+  "Gerd Muller": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "fox-in-box",
+        "icon": "🦊",
+        "name": "Fox in the Box",
+        "effect": "finisher",
+        "p": 0.44
+      },
+      {
+        "id": "final-killer",
+        "icon": "🏁",
+        "name": "Final Killer",
+        "effect": "clutch",
+        "p": 0.4
+      }
+    ]
+  },
+  "Lev Yashin": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "black-spider",
+        "icon": "🕷️",
+        "name": "Black Spider",
+        "effect": "wall",
+        "p": 0.42
+      },
+      {
+        "id": "cat-reflexes",
+        "icon": "🐱",
+        "name": "Cat Reflexes",
+        "effect": "nullify",
+        "p": 0.45
+      }
+    ]
+  },
+  "Erling Haaland": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "viking-power",
+        "icon": "🪓",
+        "name": "Viking Power",
+        "effect": "finisher",
+        "p": 0.44
+      },
+      {
+        "id": "sprint-monster",
+        "icon": "🚂",
+        "name": "Sprint Monster",
+        "effect": "blitz",
+        "p": 0.38
+      }
+    ]
+  },
+  "Ronaldinho": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "joga-magic",
+        "icon": "🎩",
+        "name": "Joga Magic",
+        "effect": "blitz",
+        "p": 0.42
+      },
+      {
+        "id": "samba-strike",
+        "icon": "🔥",
+        "name": "Samba Strike",
+        "effect": "finisher",
+        "p": 0.4
+      }
+    ]
+  },
+  "Neymar Jr": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "samba-dribble",
+        "icon": "🕺",
+        "name": "Samba Dribble",
+        "effect": "blitz",
+        "p": 0.42
+      },
+      {
+        "id": "trivela-curl",
+        "icon": "🌀",
+        "name": "Trivela Curl",
+        "effect": "finisher",
+        "p": 0.38
+      }
+    ]
+  },
+  "Andres Iniesta": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "la-croqueta",
+        "icon": "🕺",
+        "name": "La Croqueta",
+        "effect": "blitz",
+        "p": 0.4
+      },
+      {
+        "id": "world-cup-strike",
+        "icon": "🌍",
+        "name": "World Cup Strike",
+        "effect": "finisher",
+        "p": 0.38
+      }
+    ]
+  },
+  "Mohamed Salah": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "pharaoh-curl",
+        "icon": "🏹",
+        "name": "Pharaoh Curl",
+        "effect": "finisher",
+        "p": 0.42
+      },
+      {
+        "id": "counter-sprint",
+        "icon": "💨",
+        "name": "Counter Sprint",
+        "effect": "blitz",
+        "p": 0.4
+      }
+    ]
+  },
+  "Vinicius Junior": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "flair-dash",
+        "icon": "🦋",
+        "name": "Flair Dash",
+        "effect": "blitz",
+        "p": 0.42
+      },
+      {
+        "id": "final-clutch",
+        "icon": "👑",
+        "name": "Final Clutch",
+        "effect": "clutch",
+        "p": 0.4
+      }
+    ]
+  },
+  "Gianluigi Buffon": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "superman-dive",
+        "icon": "🦸",
+        "name": "Superman Dive",
+        "effect": "nullify",
+        "p": 0.42
+      },
+      {
+        "id": "defensive-leader",
+        "icon": "🛡️",
+        "name": "Defensive Leader",
+        "effect": "wall",
+        "p": 0.38
+      }
+    ]
+  },
+  "Harry Kane": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "hurricane-strike",
+        "icon": "🎯",
+        "name": "Hurricane Strike",
+        "effect": "finisher",
+        "p": 0.42
+      },
+      {
+        "id": "derby-clutch",
+        "icon": "🏟️",
+        "name": "Derby Clutch",
+        "effect": "clutch",
+        "p": 0.38
+      }
+    ]
+  },
+  "Luka Modric": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "outside-boot",
+        "icon": "👟",
+        "name": "Outside Boot",
+        "effect": "playmaker",
+        "p": 0.42
+      },
+      {
+        "id": "engine-run",
+        "icon": "🔋",
+        "name": "Engine Run",
+        "effect": "blitz",
+        "p": 0.36
+      }
+    ]
+  },
+  "Robert Lewandowski": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "machine-finish",
+        "icon": "🤖",
+        "name": "Machine Finish",
+        "effect": "finisher",
+        "p": 0.42
+      },
+      {
+        "id": "record-night",
+        "icon": "📜",
+        "name": "Record Night",
+        "effect": "clutch",
+        "p": 0.38
+      }
+    ]
+  },
+  "Thierry Henry": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "va-va-voom",
+        "icon": "💨",
+        "name": "Va-Va-Voom",
+        "effect": "blitz",
+        "p": 0.42
+      },
+      {
+        "id": "far-corner-curl",
+        "icon": "🎯",
+        "name": "Far-Corner Curl",
+        "effect": "finisher",
+        "p": 0.4
+      }
+    ]
+  },
+  "Iker Casillas": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "saint-saves",
+        "icon": "😇",
+        "name": "Saint Saves",
+        "effect": "nullify",
+        "p": 0.42
+      },
+      {
+        "id": "duel-wall",
+        "icon": "🧱",
+        "name": "One-on-One Wall",
+        "effect": "wall",
+        "p": 0.36
+      }
+    ]
+  },
+  "Kaka": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "lightning-run",
+        "icon": "⚡",
+        "name": "Lightning Run",
+        "effect": "blitz",
+        "p": 0.42
+      },
+      {
+        "id": "divine-strike",
+        "icon": "🔥",
+        "name": "Divine Strike",
+        "effect": "finisher",
+        "p": 0.4
+      }
+    ]
+  },
+  "Michel Platini": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "free-kick-king",
+        "icon": "👑",
+        "name": "Free-Kick King",
+        "effect": "finisher",
+        "p": 0.4
+      },
+      {
+        "id": "architect",
+        "icon": "📐",
+        "name": "Architect",
+        "effect": "playmaker",
+        "p": 0.4
+      }
+    ]
+  },
+  "Roberto Carlos": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "cannon-cross",
+        "icon": "🎯",
+        "name": "Cannon Cross",
+        "effect": "playmaker",
+        "p": 0.36
+      },
+      {
+        "id": "overlapping-rocket",
+        "icon": "🚀",
+        "name": "Overlapping Rocket",
+        "effect": "blitz",
+        "p": 0.4
+      }
+    ]
+  },
+  "Romario": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "toe-poke",
+        "icon": "👟",
+        "name": "Toe Poke",
+        "effect": "finisher",
+        "p": 0.42
+      },
+      {
+        "id": "box-ghost",
+        "icon": "👻",
+        "name": "Box Ghost",
+        "effect": "blitz",
+        "p": 0.38
+      }
+    ]
+  },
+  "Xavi Hernandez": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "tiki-taka",
+        "icon": "🧠",
+        "name": "Tiki-Taka",
+        "effect": "playmaker",
+        "p": 0.44
+      },
+      {
+        "id": "metronome",
+        "icon": "⏱️",
+        "name": "Metronome",
+        "effect": "playmaker",
+        "p": 0.38
+      }
+    ]
+  },
+  "Andrea Pirlo": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "maestro-pass",
+        "icon": "🎯",
+        "name": "Maestro Pass",
+        "effect": "playmaker",
+        "p": 0.44
+      },
+      {
+        "id": "free-kick-art",
+        "icon": "🎨",
+        "name": "Free-Kick Art",
+        "effect": "finisher",
+        "p": 0.38
+      }
+    ]
+  },
+  "Franco Baresi": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "the-wall",
+        "icon": "🧱",
+        "name": "The Wall",
+        "effect": "wall",
+        "p": 0.45
+      },
+      {
+        "id": "libero-brain",
+        "icon": "🧠",
+        "name": "Libero Brain",
+        "effect": "playmaker",
+        "p": 0.36
+      }
+    ]
+  },
+  "Toni Kroos": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "laser-pass",
+        "icon": "📡",
+        "name": "Laser Pass",
+        "effect": "playmaker",
+        "p": 0.44
+      },
+      {
+        "id": "long-rocket",
+        "icon": "🚀",
+        "name": "Long Rocket",
+        "effect": "finisher",
+        "p": 0.36
+      }
+    ]
+  },
+  "Zico": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "curling-free-kick",
+        "icon": "🌀",
+        "name": "Curling Free Kick",
+        "effect": "finisher",
+        "p": 0.4
+      },
+      {
+        "id": "samba-vision",
+        "icon": "🦜",
+        "name": "Samba Vision",
+        "effect": "playmaker",
+        "p": 0.4
+      }
+    ]
+  },
+  "Fabio Cannavaro": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "berlin-wall",
+        "icon": "🧱",
+        "name": "Berlin Wall",
+        "effect": "wall",
+        "p": 0.44
+      },
+      {
+        "id": "perfect-timing",
+        "icon": "⏱️",
+        "name": "Perfect Timing",
+        "effect": "wall",
+        "p": 0.36
+      }
+    ]
+  },
+  "Lothar Matthaus": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "box-to-box",
+        "icon": "🚂",
+        "name": "Box to Box",
+        "effect": "blitz",
+        "p": 0.4
+      },
+      {
+        "id": "cannon-shot",
+        "icon": "💥",
+        "name": "Cannon Shot",
+        "effect": "finisher",
+        "p": 0.4
+      }
+    ]
+  },
+  "Alessandro Nesta": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "silent-wall",
+        "icon": "🤫",
+        "name": "Silent Wall",
+        "effect": "wall",
+        "p": 0.44
+      },
+      {
+        "id": "slide-tackle",
+        "icon": "🛷",
+        "name": "Slide Tackle",
+        "effect": "wall",
+        "p": 0.35
+      }
+    ]
+  },
+  "Ruud Gullit": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "total-surge",
+        "icon": "🌊",
+        "name": "Total Surge",
+        "effect": "blitz",
+        "p": 0.4
+      },
+      {
+        "id": "dominant-strike",
+        "icon": "💪",
+        "name": "Dominant Strike",
+        "effect": "finisher",
+        "p": 0.38
+      }
+    ]
+  },
+  "Carlos Alberto Torres": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "eternal-captain",
+        "icon": "🎖️",
+        "name": "Eternal Captain",
+        "effect": "playmaker",
+        "p": 0.38
+      },
+      {
+        "id": "flank-charge",
+        "icon": "🌪️",
+        "name": "Flank Charge",
+        "effect": "blitz",
+        "p": 0.36
+      }
+    ]
+  },
+  "Peter Schmeichel": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "star-jump",
+        "icon": "⭐",
+        "name": "Star Jump",
+        "effect": "nullify",
+        "p": 0.42
+      },
+      {
+        "id": "giant-throw",
+        "icon": "💪",
+        "name": "Giant Throw",
+        "effect": "wall",
+        "p": 0.35
+      }
+    ]
+  },
+  "Dino Zoff": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "iron-calm",
+        "icon": "🧊",
+        "name": "Iron Calm",
+        "effect": "wall",
+        "p": 0.38
+      },
+      {
+        "id": "clean-sheet",
+        "icon": "🔒",
+        "name": "Clean Sheet",
+        "effect": "nullify",
+        "p": 0.42
+      }
+    ]
+  },
+  "Francesco Totti": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "spoon-chip",
+        "icon": "🥄",
+        "name": "Spoon Chip",
+        "effect": "finisher",
+        "p": 0.4
+      },
+      {
+        "id": "roman-vision",
+        "icon": "🏛️",
+        "name": "Roman Vision",
+        "effect": "playmaker",
+        "p": 0.4
+      }
+    ]
+  },
+  "Petr Cech": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "helmet-wall",
+        "icon": "🪖",
+        "name": "Helmet Wall",
+        "effect": "wall",
+        "p": 0.38
+      },
+      {
+        "id": "safe-hands",
+        "icon": "🧤",
+        "name": "Safe Hands",
+        "effect": "nullify",
+        "p": 0.4
+      }
+    ]
+  },
+  "Oliver Kahn": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "titan-roar",
+        "icon": "🦁",
+        "name": "Titan Roar",
+        "effect": "nullify",
+        "p": 0.42
+      },
+      {
+        "id": "fortress",
+        "icon": "🏰",
+        "name": "Fortress",
+        "effect": "wall",
+        "p": 0.38
+      }
+    ]
+  },
+  "Gordon Banks": {
+    "tier": 2,
+    "abilities": [
+      {
+        "id": "save-of-century",
+        "icon": "🏆",
+        "name": "Save of the Century",
+        "effect": "nullify",
+        "p": 0.42
+      },
+      {
+        "id": "steady-guard",
+        "icon": "🦅",
+        "name": "Steady Guard",
+        "effect": "wall",
+        "p": 0.35
+      }
+    ]
+  },
+  "Zlatan Ibrahimovic": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "kung-fu-volley",
+        "icon": "🦵",
+        "name": "Kung-Fu Volley",
+        "effect": "finisher",
+        "p": 0.3
+      },
+      {
+        "id": "lion-ego",
+        "icon": "🦁",
+        "name": "Lion Ego",
+        "effect": "clutch",
+        "p": 0.28
+      }
+    ]
+  },
+  "Jude Bellingham": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "late-run",
+        "icon": "⏱️",
+        "name": "Late Run",
+        "effect": "finisher",
+        "p": 0.3
+      },
+      {
+        "id": "engine-duel",
+        "icon": "💪",
+        "name": "Engine Duel",
+        "effect": "blitz",
+        "p": 0.26
+      }
+    ]
+  },
+  "Kevin De Bruyne": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "laser-cross",
+        "icon": "🎯",
+        "name": "Laser Cross",
+        "effect": "playmaker",
+        "p": 0.32
+      },
+      {
+        "id": "rocket-shot",
+        "icon": "🚀",
+        "name": "Rocket Shot",
+        "effect": "finisher",
+        "p": 0.28
+      }
+    ]
+  },
+  "Luis Suarez": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "el-pistolero",
+        "icon": "🔫",
+        "name": "El Pistolero",
+        "effect": "finisher",
+        "p": 0.32
+      },
+      {
+        "id": "chaos-clutch",
+        "icon": "🎲",
+        "name": "Chaos Clutch",
+        "effect": "clutch",
+        "p": 0.28
+      }
+    ]
+  },
+  "Roberto Baggio": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "divine-free-kick",
+        "icon": "🙏",
+        "name": "Divine Free Kick",
+        "effect": "finisher",
+        "p": 0.3
+      },
+      {
+        "id": "elegant-dribble",
+        "icon": "🦢",
+        "name": "Elegant Dribble",
+        "effect": "blitz",
+        "p": 0.26
+      }
+    ]
+  },
+  "Sergio Aguero": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "93-20-moment",
+        "icon": "⏱️",
+        "name": "93:20 Moment",
+        "effect": "clutch",
+        "p": 0.32
+      },
+      {
+        "id": "sharp-finish",
+        "icon": "🔪",
+        "name": "Sharp Finish",
+        "effect": "finisher",
+        "p": 0.3
+      }
+    ]
+  },
+  "Pavel Nedved": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "czech-cannon",
+        "icon": "💥",
+        "name": "Czech Cannon",
+        "effect": "finisher",
+        "p": 0.3
+      },
+      {
+        "id": "wing-charge",
+        "icon": "🌪️",
+        "name": "Wing Charge",
+        "effect": "blitz",
+        "p": 0.26
+      }
+    ]
+  },
+  "Raymond Kopa": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "napoleon-rhythm",
+        "icon": "🎖️",
+        "name": "Napoleon Rhythm",
+        "effect": "playmaker",
+        "p": 0.3
+      },
+      {
+        "id": "golden-dribble",
+        "icon": "✨",
+        "name": "Golden Dribble",
+        "effect": "blitz",
+        "p": 0.26
+      }
+    ]
+  },
+  "Gaetano Scirea": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "libero-grace",
+        "icon": "🎩",
+        "name": "Libero Grace",
+        "effect": "playmaker",
+        "p": 0.3
+      },
+      {
+        "id": "clean-tackle",
+        "icon": "🧼",
+        "name": "Clean Tackle",
+        "effect": "wall",
+        "p": 0.28
+      }
+    ]
+  },
+  "Just Fontaine": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "thirteen-goal-cup",
+        "icon": "📜",
+        "name": "Thirteen-Goal Cup",
+        "effect": "clutch",
+        "p": 0.3
+      },
+      {
+        "id": "pure-strike",
+        "icon": "🔥",
+        "name": "Pure Strike",
+        "effect": "finisher",
+        "p": 0.28
+      }
+    ]
+  },
+  "Lamine Yamal": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "teen-curl",
+        "icon": "🌀",
+        "name": "Teen Curl",
+        "effect": "finisher",
+        "p": 0.28
+      },
+      {
+        "id": "magic-dribble",
+        "icon": "✨",
+        "name": "Magic Dribble",
+        "effect": "blitz",
+        "p": 0.28
+      }
+    ]
+  },
+  "Jamal Musiala": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "slalom-dribble",
+        "icon": "🐍",
+        "name": "Slalom Dribble",
+        "effect": "blitz",
+        "p": 0.3
+      },
+      {
+        "id": "silk-finish",
+        "icon": "🎯",
+        "name": "Silk Finish",
+        "effect": "finisher",
+        "p": 0.26
+      }
+    ]
+  },
+  "Alessandro Del Piero": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "del-piero-zone",
+        "icon": "🎯",
+        "name": "Del Piero Zone",
+        "effect": "finisher",
+        "p": 0.3
+      },
+      {
+        "id": "gentleman-clutch",
+        "icon": "🌟",
+        "name": "Gentleman Clutch",
+        "effect": "clutch",
+        "p": 0.26
+      }
+    ]
+  },
+  "Cafu": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "endless-engine",
+        "icon": "🔋",
+        "name": "Endless Engine",
+        "effect": "blitz",
+        "p": 0.3
+      },
+      {
+        "id": "samba-cross",
+        "icon": "🎯",
+        "name": "Samba Cross",
+        "effect": "playmaker",
+        "p": 0.26
+      }
+    ]
+  },
+  "Florian Wirtz": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "wonderkid-vision",
+        "icon": "🔮",
+        "name": "Wonderkid Vision",
+        "effect": "playmaker",
+        "p": 0.3
+      },
+      {
+        "id": "smooth-finish",
+        "icon": "💫",
+        "name": "Smooth Finish",
+        "effect": "finisher",
+        "p": 0.25
+      }
+    ]
+  },
+  "Raul Gonzalez": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "fox-finish",
+        "icon": "🦊",
+        "name": "Fox Finish",
+        "effect": "finisher",
+        "p": 0.3
+      },
+      {
+        "id": "blanco-clutch",
+        "icon": "⚪",
+        "name": "Blanco Clutch",
+        "effect": "clutch",
+        "p": 0.26
+      }
+    ]
+  },
+  "Rodri Hernandez": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "anchor-control",
+        "icon": "⚓",
+        "name": "Anchor Control",
+        "effect": "playmaker",
+        "p": 0.3
+      },
+      {
+        "id": "european-final-strike",
+        "icon": "🏆",
+        "name": "European Final Strike",
+        "effect": "finisher",
+        "p": 0.26
+      }
+    ]
+  },
+  "Andriy Shevchenko": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "sheva-strike",
+        "icon": "🏹",
+        "name": "Sheva Strike",
+        "effect": "finisher",
+        "p": 0.3
+      },
+      {
+        "id": "milan-killer",
+        "icon": "🗡️",
+        "name": "Milan Killer",
+        "effect": "clutch",
+        "p": 0.26
+      }
+    ]
+  },
+  "Dennis Bergkamp": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "iceman-touch",
+        "icon": "🧊",
+        "name": "Iceman Touch",
+        "effect": "finisher",
+        "p": 0.3
+      },
+      {
+        "id": "magic-control",
+        "icon": "🎩",
+        "name": "Magic Control",
+        "effect": "blitz",
+        "p": 0.26
+      }
+    ]
+  },
+  "Manuel Neuer": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "sweeper-keeper",
+        "icon": "🧹",
+        "name": "Sweeper Keeper",
+        "effect": "wall",
+        "p": 0.3
+      },
+      {
+        "id": "rush-command",
+        "icon": "⚡",
+        "name": "Rush Command",
+        "effect": "nullify",
+        "p": 0.28
+      }
+    ]
+  },
+  "Gabriel Batistuta": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "batigol-cannon",
+        "icon": "💥",
+        "name": "Batigol Cannon",
+        "effect": "finisher",
+        "p": 0.32
+      },
+      {
+        "id": "lion-roar",
+        "icon": "🦁",
+        "name": "Lion Roar",
+        "effect": "clutch",
+        "p": 0.26
+      }
+    ]
+  },
+  "Thibaut Courtois": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "giant-reach",
+        "icon": "🦒",
+        "name": "Giant Reach",
+        "effect": "nullify",
+        "p": 0.3
+      },
+      {
+        "id": "final-wall",
+        "icon": "🧱",
+        "name": "Final Wall",
+        "effect": "wall",
+        "p": 0.26
+      }
+    ]
+  },
+  "Edwin van der Sar": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "calm-giant",
+        "icon": "🗿",
+        "name": "Calm Giant",
+        "effect": "wall",
+        "p": 0.26
+      },
+      {
+        "id": "long-save",
+        "icon": "🧤",
+        "name": "Long Reach Save",
+        "effect": "nullify",
+        "p": 0.28
+      }
+    ]
+  },
+  "Giacinto Facchetti": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "flank-power",
+        "icon": "🌪️",
+        "name": "Flank Power",
+        "effect": "blitz",
+        "p": 0.28
+      },
+      {
+        "id": "iron-defence",
+        "icon": "🛡️",
+        "name": "Iron Defence",
+        "effect": "wall",
+        "p": 0.27
+      }
+    ]
+  },
+  "Hristo Stoichkov": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "fierce-left",
+        "icon": "🔥",
+        "name": "Fierce Left",
+        "effect": "finisher",
+        "p": 0.3
+      },
+      {
+        "id": "golden-ball-night",
+        "icon": "🏆",
+        "name": "Golden Ball Night",
+        "effect": "clutch",
+        "p": 0.26
+      }
+    ]
+  },
+  "Paolo Rossi": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "hat-trick-hero",
+        "icon": "🎩",
+        "name": "Hat-Trick Hero",
+        "effect": "clutch",
+        "p": 0.3
+      },
+      {
+        "id": "poacher-strike",
+        "icon": "🎯",
+        "name": "Poacher Strike",
+        "effect": "finisher",
+        "p": 0.28
+      }
+    ]
+  },
+  "Karl-Heinz Rummenigge": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "european-flight",
+        "icon": "✈️",
+        "name": "European Flight",
+        "effect": "blitz",
+        "p": 0.28
+      },
+      {
+        "id": "clinical-header",
+        "icon": "🎯",
+        "name": "Clinical Header",
+        "effect": "finisher",
+        "p": 0.26
+      }
+    ]
+  },
+  "Jimmy Greaves": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "natural-finish",
+        "icon": "🥅",
+        "name": "Natural Finish",
+        "effect": "finisher",
+        "p": 0.3
+      },
+      {
+        "id": "ghost-run",
+        "icon": "👻",
+        "name": "Ghost Run",
+        "effect": "blitz",
+        "p": 0.25
+      }
+    ]
+  },
+  "Sepp Maier": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "anzing-cat",
+        "icon": "🐱",
+        "name": "Anzing Cat",
+        "effect": "nullify",
+        "p": 0.28
+      },
+      {
+        "id": "iron-post",
+        "icon": "🧱",
+        "name": "Iron Post",
+        "effect": "wall",
+        "p": 0.25
+      }
+    ]
+  },
+  "John Charles": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "power-header",
+        "icon": "🦅",
+        "name": "Power Header",
+        "effect": "finisher",
+        "p": 0.28
+      },
+      {
+        "id": "gentle-giant",
+        "icon": "🤝",
+        "name": "Gentle Giant",
+        "effect": "clutch",
+        "p": 0.24
+      }
+    ]
+  },
+  "Sergio Ramos": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "minuto-93",
+        "icon": "⏰",
+        "name": "Minuto 93",
+        "effect": "wall",
+        "p": 0.3
+      },
+      {
+        "id": "long-diagonal",
+        "icon": "🎯",
+        "name": "Long Diagonal",
+        "effect": "playmaker",
+        "p": 0.24
+      }
+    ]
+  },
+  "Bukayo Saka": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "starboy-cut",
+        "icon": "⭐",
+        "name": "Starboy Cut",
+        "effect": "finisher",
+        "p": 0.27
+      },
+      {
+        "id": "ice-penalty",
+        "icon": "🧊",
+        "name": "Ice Penalty",
+        "effect": "clutch",
+        "p": 0.25
+      }
+    ]
+  },
+  "Wayne Rooney": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "scouse-rocket",
+        "icon": "🚀",
+        "name": "Scouse Rocket",
+        "effect": "finisher",
+        "p": 0.28
+      },
+      {
+        "id": "derby-fire",
+        "icon": "🔥",
+        "name": "Derby Fire",
+        "effect": "clutch",
+        "p": 0.25
+      }
+    ]
+  },
+  "Antoine Griezmann": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "link-play",
+        "icon": "🔗",
+        "name": "Link Play",
+        "effect": "playmaker",
+        "p": 0.28
+      },
+      {
+        "id": "curled-finish",
+        "icon": "🌀",
+        "name": "Curled Finish",
+        "effect": "finisher",
+        "p": 0.26
+      }
+    ]
+  },
+  "Carles Puyol": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "lion-heart",
+        "icon": "🦁",
+        "name": "Lion Heart",
+        "effect": "wall",
+        "p": 0.3
+      },
+      {
+        "id": "last-stand",
+        "icon": "🧱",
+        "name": "Last Stand",
+        "effect": "wall",
+        "p": 0.26
+      }
+    ]
+  },
+  "Cole Palmer": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "cold-finish",
+        "icon": "🧊",
+        "name": "Cold Finish",
+        "effect": "finisher",
+        "p": 0.28
+      },
+      {
+        "id": "ice-pass",
+        "icon": "💠",
+        "name": "Ice Pass",
+        "effect": "playmaker",
+        "p": 0.26
+      }
+    ]
+  },
+  "Lautaro Martinez": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "toro-charge",
+        "icon": "🐂",
+        "name": "Toro Charge",
+        "effect": "finisher",
+        "p": 0.27
+      },
+      {
+        "id": "milano-clutch",
+        "icon": "🏟️",
+        "name": "Milano Clutch",
+        "effect": "clutch",
+        "p": 0.25
+      }
+    ]
+  },
+  "Pedri": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "tiki-brain",
+        "icon": "🧠",
+        "name": "Tiki Brain",
+        "effect": "playmaker",
+        "p": 0.28
+      },
+      {
+        "id": "quiet-dribble",
+        "icon": "🕊️",
+        "name": "Quiet Dribble",
+        "effect": "blitz",
+        "p": 0.24
+      }
+    ]
+  },
+  "Steven Gerrard": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "stevie-rocket",
+        "icon": "🚀",
+        "name": "Stevie Rocket",
+        "effect": "finisher",
+        "p": 0.3
+      },
+      {
+        "id": "captain-drive",
+        "icon": "👑",
+        "name": "Captain Drive",
+        "effect": "playmaker",
+        "p": 0.26
+      }
+    ]
+  },
+  "Virgil van Dijk": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "colossus-duel",
+        "icon": "🗿",
+        "name": "Colossus Duel",
+        "effect": "wall",
+        "p": 0.3
+      },
+      {
+        "id": "calm-build",
+        "icon": "🧠",
+        "name": "Calm Build",
+        "effect": "playmaker",
+        "p": 0.24
+      }
+    ]
+  },
+  "Arjen Robben": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "cut-inside",
+        "icon": "✂️",
+        "name": "Cut Inside",
+        "effect": "blitz",
+        "p": 0.3
+      },
+      {
+        "id": "left-curl",
+        "icon": "🌀",
+        "name": "Left Curl",
+        "effect": "finisher",
+        "p": 0.28
+      }
+    ]
+  },
+  "Federico Valverde": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "engine-charge",
+        "icon": "🚂",
+        "name": "Engine Charge",
+        "effect": "blitz",
+        "p": 0.28
+      },
+      {
+        "id": "missile-shot",
+        "icon": "🛸",
+        "name": "Missile Shot",
+        "effect": "finisher",
+        "p": 0.28
+      }
+    ]
+  },
+  "Frank Lampard": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "ghost-arrival",
+        "icon": "👻",
+        "name": "Ghost Arrival",
+        "effect": "finisher",
+        "p": 0.3
+      },
+      {
+        "id": "long-shot",
+        "icon": "💥",
+        "name": "Long Shot",
+        "effect": "finisher",
+        "p": 0.26
+      }
+    ]
+  },
+  "Martin Odegaard": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "silk-vision",
+        "icon": "🎩",
+        "name": "Silk Vision",
+        "effect": "playmaker",
+        "p": 0.28
+      },
+      {
+        "id": "curling-strike",
+        "icon": "🍂",
+        "name": "Curling Strike",
+        "effect": "finisher",
+        "p": 0.24
+      }
+    ]
+  },
+  "Ousmane Dembele": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "two-foot-dribble",
+        "icon": "🦶",
+        "name": "Two-Foot Dribble",
+        "effect": "blitz",
+        "p": 0.27
+      },
+      {
+        "id": "final-spark",
+        "icon": "✨",
+        "name": "Final Spark",
+        "effect": "clutch",
+        "p": 0.25
+      }
+    ]
+  },
+  "Paul Scholes": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "thunder-strike",
+        "icon": "🔨",
+        "name": "Thunder Strike",
+        "effect": "finisher",
+        "p": 0.3
+      },
+      {
+        "id": "ping-pass",
+        "icon": "🎯",
+        "name": "Ping Pass",
+        "effect": "playmaker",
+        "p": 0.26
+      }
+    ]
+  },
+  "Philipp Lahm": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "smart-overlap",
+        "icon": "🧠",
+        "name": "Smart Overlap",
+        "effect": "playmaker",
+        "p": 0.28
+      },
+      {
+        "id": "pocket-defending",
+        "icon": "🔒",
+        "name": "Pocket Defending",
+        "effect": "wall",
+        "p": 0.27
+      }
+    ]
+  },
+  "Raphinha": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "workhorse-wing",
+        "icon": "🐎",
+        "name": "Workhorse Wing",
+        "effect": "blitz",
+        "p": 0.26
+      },
+      {
+        "id": "curling-strike",
+        "icon": "🌀",
+        "name": "Curling Strike",
+        "effect": "finisher",
+        "p": 0.26
+      }
+    ]
+  },
+  "David Villa": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "guaje-strike",
+        "icon": "🏹",
+        "name": "Guaje Strike",
+        "effect": "finisher",
+        "p": 0.28
+      },
+      {
+        "id": "golden-boot",
+        "icon": "👞",
+        "name": "Golden Boot",
+        "effect": "clutch",
+        "p": 0.25
+      }
+    ]
+  },
+  "Javier Zanetti": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "tractor-engine",
+        "icon": "🚜",
+        "name": "Tractor Engine",
+        "effect": "blitz",
+        "p": 0.28
+      },
+      {
+        "id": "iron-man",
+        "icon": "🔩",
+        "name": "Iron Man",
+        "effect": "wall",
+        "p": 0.26
+      }
+    ]
+  },
+  "Samuel Eto'o": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "lion-sprint",
+        "icon": "🦁",
+        "name": "Lion Sprint",
+        "effect": "blitz",
+        "p": 0.27
+      },
+      {
+        "id": "treble-finish",
+        "icon": "🏆",
+        "name": "Treble Finish",
+        "effect": "clutch",
+        "p": 0.26
+      }
+    ]
+  },
+  "Sergio Busquets": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "pivot-brain",
+        "icon": "🦉",
+        "name": "Pivot Brain",
+        "effect": "playmaker",
+        "p": 0.3
+      },
+      {
+        "id": "tempo-control",
+        "icon": "🎛️",
+        "name": "Tempo Control",
+        "effect": "playmaker",
+        "p": 0.24
+      }
+    ]
+  },
+  "Alisson Becker": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "ice-veins",
+        "icon": "🧊",
+        "name": "Ice Veins",
+        "effect": "nullify",
+        "p": 0.28
+      },
+      {
+        "id": "aerial-calm",
+        "icon": "🦅",
+        "name": "Aerial Calm",
+        "effect": "wall",
+        "p": 0.24
+      }
+    ]
+  },
+  "Ruud van Nistelrooy": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "poacher-king",
+        "icon": "🦊",
+        "name": "Poacher King",
+        "effect": "finisher",
+        "p": 0.28
+      },
+      {
+        "id": "clutch-header",
+        "icon": "✈️",
+        "name": "Clutch Header",
+        "effect": "clutch",
+        "p": 0.25
+      }
+    ]
+  },
+  "Juan Roman Riquelme": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "slow-tempo",
+        "icon": "🐢",
+        "name": "Slow Tempo",
+        "effect": "playmaker",
+        "p": 0.28
+      },
+      {
+        "id": "silk-pass",
+        "icon": "🧵",
+        "name": "Silk Pass",
+        "effect": "playmaker",
+        "p": 0.24
+      }
+    ]
+  },
+  "Frank Rijkaard": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "dutch-anchor",
+        "icon": "⚓",
+        "name": "Dutch Anchor",
+        "effect": "playmaker",
+        "p": 0.28
+      },
+      {
+        "id": "power-surge",
+        "icon": "💪",
+        "name": "Power Surge",
+        "effect": "blitz",
+        "p": 0.26
+      }
+    ]
+  },
+  "Daniel Passarella": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "cannon-header",
+        "icon": "🦅",
+        "name": "Cannon Header",
+        "effect": "wall",
+        "p": 0.28
+      },
+      {
+        "id": "captain-drive",
+        "icon": "👑",
+        "name": "Captain Drive",
+        "effect": "playmaker",
+        "p": 0.25
+      }
+    ]
+  },
+  "Gheorghe Hagi": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "carpathian-magic",
+        "icon": "🏔️",
+        "name": "Carpathian Magic",
+        "effect": "playmaker",
+        "p": 0.28
+      },
+      {
+        "id": "left-cannon",
+        "icon": "🧨",
+        "name": "Left Cannon",
+        "effect": "finisher",
+        "p": 0.27
+      }
+    ]
+  },
+  "Jan Oblak": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "slovenian-wall",
+        "icon": "🧱",
+        "name": "Slovenian Wall",
+        "effect": "wall",
+        "p": 0.28
+      },
+      {
+        "id": "penalty-reader",
+        "icon": "👀",
+        "name": "Penalty Reader",
+        "effect": "nullify",
+        "p": 0.26
+      }
+    ]
+  },
+  "Kenny Dalglish": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "king-kenny",
+        "icon": "👑",
+        "name": "King Kenny",
+        "effect": "clutch",
+        "p": 0.27
+      },
+      {
+        "id": "smooth-strike",
+        "icon": "🎯",
+        "name": "Smooth Strike",
+        "effect": "finisher",
+        "p": 0.26
+      }
+    ]
+  },
+  "Socrates": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "backheel-art",
+        "icon": "🎨",
+        "name": "Backheel Art",
+        "effect": "playmaker",
+        "p": 0.27
+      },
+      {
+        "id": "placed-shot",
+        "icon": "🎯",
+        "name": "Placed Shot",
+        "effect": "finisher",
+        "p": 0.26
+      }
+    ]
+  },
+  "Jairzinho": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "every-game-goal",
+        "icon": "📜",
+        "name": "Every-Game Goal",
+        "effect": "clutch",
+        "p": 0.27
+      },
+      {
+        "id": "wing-blitz",
+        "icon": "💨",
+        "name": "Wing Blitz",
+        "effect": "blitz",
+        "p": 0.26
+      }
+    ]
+  },
+  "Mario Kempes": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "mario-final",
+        "icon": "🥇",
+        "name": "Mario Final",
+        "effect": "clutch",
+        "p": 0.27
+      },
+      {
+        "id": "power-strike",
+        "icon": "💥",
+        "name": "Power Strike",
+        "effect": "finisher",
+        "p": 0.26
+      }
+    ]
+  },
+  "Paulo Roberto Falcao": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "elegant-regista",
+        "icon": "🎩",
+        "name": "Elegant Regista",
+        "effect": "playmaker",
+        "p": 0.27
+      },
+      {
+        "id": "timed-shot",
+        "icon": "🔥",
+        "name": "Timed Shot",
+        "effect": "finisher",
+        "p": 0.25
+      }
+    ]
+  },
+  "Didi": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "falling-leaf",
+        "icon": "🍂",
+        "name": "Falling Leaf",
+        "effect": "finisher",
+        "p": 0.28
+      },
+      {
+        "id": "samba-rhythm",
+        "icon": "🥁",
+        "name": "Samba Rhythm",
+        "effect": "playmaker",
+        "p": 0.26
+      }
+    ]
+  },
+  "Oleg Blokhin": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "soviet-sprint",
+        "icon": "🚂",
+        "name": "Soviet Sprint",
+        "effect": "blitz",
+        "p": 0.27
+      },
+      {
+        "id": "golden-strike",
+        "icon": "🌟",
+        "name": "Golden Strike",
+        "effect": "finisher",
+        "p": 0.25
+      }
+    ]
+  },
+  "Uwe Seeler": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "header-king",
+        "icon": "✈️",
+        "name": "Header King",
+        "effect": "finisher",
+        "p": 0.27
+      },
+      {
+        "id": "loyal-clutch",
+        "icon": "⚓",
+        "name": "Loyal Clutch",
+        "effect": "clutch",
+        "p": 0.24
+      }
+    ]
+  },
+  "Gigi Riva": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "cannon-left",
+        "icon": "💥",
+        "name": "Cannon Left",
+        "effect": "finisher",
+        "p": 0.27
+      },
+      {
+        "id": "island-pride",
+        "icon": "🏝️",
+        "name": "Island Pride",
+        "effect": "clutch",
+        "p": 0.24
+      }
+    ]
+  },
+  "Omar Sivori": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "tricky-dribble",
+        "icon": "🎭",
+        "name": "Tricky Dribble",
+        "effect": "blitz",
+        "p": 0.26
+      },
+      {
+        "id": "sharp-angle",
+        "icon": "📐",
+        "name": "Sharp Angle",
+        "effect": "finisher",
+        "p": 0.25
+      }
+    ]
+  },
+  "David Beckham": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "bend-it",
+        "icon": "🌈",
+        "name": "Bend It",
+        "effect": "playmaker",
+        "p": 0.28
+      },
+      {
+        "id": "greece-rocket",
+        "icon": "🚀",
+        "name": "Greece Rocket",
+        "effect": "finisher",
+        "p": 0.24
+      }
+    ]
+  },
+  "Son Heung-min": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "two-foot-rocket",
+        "icon": "🚀",
+        "name": "Two-Foot Rocket",
+        "effect": "finisher",
+        "p": 0.26
+      },
+      {
+        "id": "counter-dash",
+        "icon": "💨",
+        "name": "Counter Dash",
+        "effect": "blitz",
+        "p": 0.25
+      }
+    ]
+  },
+  "Dani Alves": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "samba-overlap",
+        "icon": "💨",
+        "name": "Samba Overlap",
+        "effect": "blitz",
+        "p": 0.26
+      },
+      {
+        "id": "final-assist",
+        "icon": "🎯",
+        "name": "Final Assist",
+        "effect": "playmaker",
+        "p": 0.24
+      }
+    ]
+  },
+  "Didier Drogba": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "power-header",
+        "icon": "🦍",
+        "name": "Power Header",
+        "effect": "finisher",
+        "p": 0.26
+      },
+      {
+        "id": "final-king",
+        "icon": "👑",
+        "name": "Final King",
+        "effect": "clutch",
+        "p": 0.26
+      }
+    ]
+  },
+  "Marcelo Vieira": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "samba-flair",
+        "icon": "🎭",
+        "name": "Samba Flair",
+        "effect": "blitz",
+        "p": 0.26
+      },
+      {
+        "id": "magic-cross",
+        "icon": "🪄",
+        "name": "Magic Cross",
+        "effect": "playmaker",
+        "p": 0.24
+      }
+    ]
+  },
+  "Julian Alvarez": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "spider-bite",
+        "icon": "🕷️",
+        "name": "Spider Bite",
+        "effect": "finisher",
+        "p": 0.25
+      },
+      {
+        "id": "world-cup-clutch",
+        "icon": "🌍",
+        "name": "World Cup Clutch",
+        "effect": "clutch",
+        "p": 0.24
+      }
+    ]
+  },
+  "N'Golo Kante": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "endless-lungs",
+        "icon": "🫁",
+        "name": "Endless Lungs",
+        "effect": "blitz",
+        "p": 0.27
+      },
+      {
+        "id": "quick-release",
+        "icon": "⚡",
+        "name": "Quick Release",
+        "effect": "playmaker",
+        "p": 0.24
+      }
+    ]
+  },
+  "Victor Osimhen": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "mask-strike",
+        "icon": "👺",
+        "name": "Mask Strike",
+        "effect": "finisher",
+        "p": 0.26
+      },
+      {
+        "id": "leap-header",
+        "icon": "🦅",
+        "name": "Leap Header",
+        "effect": "finisher",
+        "p": 0.24
+      }
+    ]
+  },
+  "Achraf Hakimi": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "speed-train",
+        "icon": "🚂",
+        "name": "Speed Train",
+        "effect": "blitz",
+        "p": 0.28
+      },
+      {
+        "id": "wing-lock",
+        "icon": "🔒",
+        "name": "Wing Lock",
+        "effect": "wall",
+        "p": 0.22
+      }
+    ]
+  },
+  "Alexander Isak": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "smooth-runner",
+        "icon": "🦌",
+        "name": "Smooth Runner",
+        "effect": "blitz",
+        "p": 0.25
+      },
+      {
+        "id": "cool-finish",
+        "icon": "🧊",
+        "name": "Cool Finish",
+        "effect": "finisher",
+        "p": 0.25
+      }
+    ]
+  },
+  "Declan Rice": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "anchor-pass",
+        "icon": "⚓",
+        "name": "Anchor Pass",
+        "effect": "playmaker",
+        "p": 0.25
+      },
+      {
+        "id": "rising-shot",
+        "icon": "🚀",
+        "name": "Rising Shot",
+        "effect": "finisher",
+        "p": 0.24
+      }
+    ]
+  },
+  "Franck Ribery": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "wing-wizard",
+        "icon": "🧙",
+        "name": "Wing Wizard",
+        "effect": "blitz",
+        "p": 0.26
+      },
+      {
+        "id": "rib-curl",
+        "icon": "🌀",
+        "name": "Rib Curl",
+        "effect": "finisher",
+        "p": 0.23
+      }
+    ]
+  },
+  "Khvicha Kvaratskhelia": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "kvaradona-dribble",
+        "icon": "🌀",
+        "name": "Kvaradona Dribble",
+        "effect": "blitz",
+        "p": 0.26
+      },
+      {
+        "id": "curling-finish",
+        "icon": "🎯",
+        "name": "Curling Finish",
+        "effect": "finisher",
+        "p": 0.24
+      }
+    ]
+  },
+  "Nemanja Vidic": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "warrior-duel",
+        "icon": "⚔️",
+        "name": "Warrior Duel",
+        "effect": "wall",
+        "p": 0.28
+      },
+      {
+        "id": "blood-header",
+        "icon": "🩸",
+        "name": "Blood Header",
+        "effect": "wall",
+        "p": 0.24
+      }
+    ]
+  },
+  "Thiago Silva": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "o-monstro",
+        "icon": "🐙",
+        "name": "O Monstro",
+        "effect": "wall",
+        "p": 0.27
+      },
+      {
+        "id": "position-master",
+        "icon": "📐",
+        "name": "Position Master",
+        "effect": "wall",
+        "p": 0.24
+      }
+    ]
+  },
+  "Viktor Gyokeres": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "power-run",
+        "icon": "🚂",
+        "name": "Power Run",
+        "effect": "blitz",
+        "p": 0.25
+      },
+      {
+        "id": "predator-finish",
+        "icon": "🦁",
+        "name": "Predator Finish",
+        "effect": "finisher",
+        "p": 0.25
+      }
+    ]
+  },
+  "Xabi Alonso": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "hollywood-pass",
+        "icon": "🎬",
+        "name": "Hollywood Pass",
+        "effect": "playmaker",
+        "p": 0.27
+      },
+      {
+        "id": "halfway-strike",
+        "icon": "🎯",
+        "name": "Halfway Strike",
+        "effect": "finisher",
+        "p": 0.22
+      }
+    ]
+  },
+  "David Silva": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "el-mago",
+        "icon": "🎩",
+        "name": "El Mago",
+        "effect": "playmaker",
+        "p": 0.28
+      },
+      {
+        "id": "silk-dribble",
+        "icon": "💃",
+        "name": "Silk Dribble",
+        "effect": "blitz",
+        "p": 0.22
+      }
+    ]
+  },
+  "Emiliano Martinez": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "mind-games",
+        "icon": "🎭",
+        "name": "Mind Games",
+        "effect": "nullify",
+        "p": 0.26
+      },
+      {
+        "id": "shootout-king",
+        "icon": "🥇",
+        "name": "Shootout King",
+        "effect": "wall",
+        "p": 0.24
+      }
+    ]
+  },
+  "Giorgio Chiellini": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "gladiator-duel",
+        "icon": "🏟️",
+        "name": "Gladiator Duel",
+        "effect": "wall",
+        "p": 0.27
+      },
+      {
+        "id": "shoulder-guard",
+        "icon": "💪",
+        "name": "Shoulder Guard",
+        "effect": "wall",
+        "p": 0.24
+      }
+    ]
+  },
+  "Yaya Toure": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "tank-run",
+        "icon": "🚂",
+        "name": "Tank Run",
+        "effect": "blitz",
+        "p": 0.27
+      },
+      {
+        "id": "cannon-drive",
+        "icon": "💥",
+        "name": "Cannon Drive",
+        "effect": "finisher",
+        "p": 0.25
+      }
+    ]
+  },
+  "Clarence Seedorf": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "champions-craft",
+        "icon": "🏆",
+        "name": "Champions Craft",
+        "effect": "playmaker",
+        "p": 0.26
+      },
+      {
+        "id": "power-strike",
+        "icon": "💥",
+        "name": "Power Strike",
+        "effect": "finisher",
+        "p": 0.24
+      }
+    ]
+  },
+  "Lilian Thuram": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "rock-defence",
+        "icon": "🪨",
+        "name": "Rock Defence",
+        "effect": "wall",
+        "p": 0.26
+      },
+      {
+        "id": "power-surge",
+        "icon": "💪",
+        "name": "Power Surge",
+        "effect": "blitz",
+        "p": 0.24
+      }
+    ]
+  },
+  "Patrick Vieira": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "invincible-drive",
+        "icon": "🚂",
+        "name": "Invincible Drive",
+        "effect": "blitz",
+        "p": 0.26
+      },
+      {
+        "id": "captain-pass",
+        "icon": "🎖️",
+        "name": "Captain Pass",
+        "effect": "playmaker",
+        "p": 0.24
+      }
+    ]
+  },
+  "Robin van Persie": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "flying-dutchman",
+        "icon": "✈️",
+        "name": "Flying Dutchman",
+        "effect": "finisher",
+        "p": 0.27
+      },
+      {
+        "id": "left-volley",
+        "icon": "🌀",
+        "name": "Left Volley",
+        "effect": "finisher",
+        "p": 0.24
+      }
+    ]
+  },
+  "Ronald Koeman": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "wembley-cannon",
+        "icon": "🚀",
+        "name": "Wembley Cannon",
+        "effect": "playmaker",
+        "p": 0.26
+      },
+      {
+        "id": "iron-tackle",
+        "icon": "🦵",
+        "name": "Iron Tackle",
+        "effect": "wall",
+        "p": 0.24
+      }
+    ]
+  },
+  "Ruben Dias": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "commanding-duel",
+        "icon": "🗣️",
+        "name": "Commanding Duel",
+        "effect": "wall",
+        "p": 0.26
+      },
+      {
+        "id": "block-machine",
+        "icon": "🧱",
+        "name": "Block Machine",
+        "effect": "wall",
+        "p": 0.24
+      }
+    ]
+  },
+  "Wesley Sneijder": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "treble-vision",
+        "icon": "🔭",
+        "name": "Treble Vision",
+        "effect": "playmaker",
+        "p": 0.26
+      },
+      {
+        "id": "set-piece-strike",
+        "icon": "🎯",
+        "name": "Set-Piece Strike",
+        "effect": "finisher",
+        "p": 0.24
+      }
+    ]
+  },
+  "Gianluigi Donnarumma": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "euro-hero",
+        "icon": "🏟️",
+        "name": "Euro Hero",
+        "effect": "nullify",
+        "p": 0.26
+      },
+      {
+        "id": "giant-frame",
+        "icon": "🦍",
+        "name": "Giant Frame",
+        "effect": "wall",
+        "p": 0.24
+      }
+    ]
+  },
+  "Nicolo Barella": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "inter-engine",
+        "icon": "🔋",
+        "name": "Inter Engine",
+        "effect": "blitz",
+        "p": 0.25
+      },
+      {
+        "id": "sharp-pass",
+        "icon": "🪡",
+        "name": "Sharp Pass",
+        "effect": "playmaker",
+        "p": 0.24
+      }
+    ]
+  },
+  "Marc-Andre ter Stegen": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "footwork-wall",
+        "icon": "🦶",
+        "name": "Footwork Wall",
+        "effect": "wall",
+        "p": 0.24
+      },
+      {
+        "id": "elastic-save",
+        "icon": "🤸",
+        "name": "Elastic Save",
+        "effect": "nullify",
+        "p": 0.25
+      }
+    ]
+  },
+  "Kevin Keegan": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "mighty-mouse",
+        "icon": "🐭",
+        "name": "Mighty Mouse",
+        "effect": "blitz",
+        "p": 0.25
+      },
+      {
+        "id": "european-night",
+        "icon": "🏆",
+        "name": "European Night",
+        "effect": "clutch",
+        "p": 0.23
+      }
+    ]
+  },
+  "Rivelino": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "elastico",
+        "icon": "🎢",
+        "name": "Elastico",
+        "effect": "blitz",
+        "p": 0.26
+      },
+      {
+        "id": "moustache-rocket",
+        "icon": "🚀",
+        "name": "Moustache Rocket",
+        "effect": "finisher",
+        "p": 0.24
+      }
+    ]
+  },
+  "Gerson": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "golden-left",
+        "icon": "🦶",
+        "name": "Golden Left",
+        "effect": "playmaker",
+        "p": 0.25
+      },
+      {
+        "id": "long-cannon",
+        "icon": "💥",
+        "name": "Long Cannon",
+        "effect": "finisher",
+        "p": 0.23
+      }
+    ]
+  },
+  "Sandro Mazzola": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "inter-star",
+        "icon": "⭐",
+        "name": "Inter Star",
+        "effect": "finisher",
+        "p": 0.24
+      },
+      {
+        "id": "elegant-run",
+        "icon": "🎭",
+        "name": "Elegant Run",
+        "effect": "blitz",
+        "p": 0.23
+      }
+    ]
+  },
+  "Tostao": {
+    "tier": 1,
+    "abilities": [
+      {
+        "id": "clever-finish",
+        "icon": "🎯",
+        "name": "Clever Finish",
+        "effect": "finisher",
+        "p": 0.24
+      },
+      {
+        "id": "seventy-clutch",
+        "icon": "🥇",
+        "name": "Seventy Clutch",
+        "effect": "clutch",
+        "p": 0.23
+      }
+    ]
+  }
+}

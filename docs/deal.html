@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0d1b2e">
 <title>صناديق الأنمي — ديل أور نو ديل</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="deal.css">
@@ -34,7 +36,7 @@
       </label>
       <button id="startBtn" class="primary-btn">ابدأ اللعبة 🎁</button>
       <p class="hint">
-        كل لاعب هيبني تشكيلة من 5 فئات: حارس، مدافع، وسط، مهاجم، ومدرب.
+        كل لاعب هيبني تشكيلة من 5 فئات بالترتيب: حارس، مدافع، وسط، مهاجم، ومدرب.
         كل فئة فيها 4 صناديق — تفتح واحد، تقبل أو ترفض (لو رفضت بتفتح صندوق تاني نهائي).
         أحيانًا (بشكل عشوائي، مش كل مرة) بيبقى في صناديق "عروض بنك" فيها كروت خاصة.
       </p>
@@ -68,9 +70,7 @@
       </div>
     </div>
 
-    <div class="deal-stage" id="dealStage">
-      <!-- box grid / reveal panel injected here -->
-    </div>
+    <div class="deal-stage" id="dealStage"></div>
   </section>
 
   <!-- MATCH RESULT -->
@@ -108,6 +108,23 @@
         <div id="motmDetail" class="motm-detail"></div>
       </div>
 
+      <div class="timeline-box" id="timelineBox">
+        <h4>📋 أحداث المباراة (دقيقة بدقيقة)</h4>
+        <ul id="timelineList" class="timeline-list"></ul>
+      </div>
+
+      <div class="lineup-box" id="lineupBox">
+        <h4>📋 التشكيلة حسب المراكز</h4>
+        <div id="lineupGrid" class="lineup-grid"></div>
+      </div>
+
+      <div class="analysis-box" id="analysisBox">
+        <h4>📊 تحليل الماتش</h4>
+        <div id="statsTable" class="stats-table"></div>
+        <h4>🔥 اللحظات الحاسمة</h4>
+        <ul id="keyMoments" class="timeline-list"></ul>
+      </div>
+
       <button id="newGameBtn" class="primary-btn">لعبة جديدة 🔁</button>
     </div>
   </section>
@@ -116,5 +133,8 @@
 
 <script src="common.js"></script>
 <script src="deal.js"></script>
+<script>
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js').catch(() => {}); }
+</script>
 </body>
 </html>

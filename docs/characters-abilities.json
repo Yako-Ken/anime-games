@@ -1,0 +1,1940 @@
+{
+ "Monkey D., Luffy": {
+  "tier": 5,
+  "abilities": [
+   {
+    "id": "gear-5",
+    "icon": "☀️",
+    "name": "Gear 5",
+    "effect": "finisher",
+    "p": 0.4
+   },
+   {
+    "id": "conquerors-haki",
+    "icon": "👑",
+    "name": "Conqueror's Haki",
+    "effect": "clutch",
+    "p": 0.3
+   }
+  ]
+ },
+ "Levi": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "spinning-strike",
+    "icon": "🔪",
+    "name": "Spinning Strike",
+    "effect": "blitz",
+    "p": 0.4
+   },
+   {
+    "id": "thunder-spear",
+    "icon": "💥",
+    "name": "Thunder Spear",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Lawliet, L": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "perfect-logic",
+    "icon": "🔍",
+    "name": "Perfect Logic",
+    "effect": "playmaker",
+    "p": 0.35
+   }
+  ]
+ },
+ "Roronoa, Zoro": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "three-sword-style",
+    "icon": "⚔️",
+    "name": "Three Sword Style",
+    "effect": "finisher",
+    "p": 0.4
+   },
+   {
+    "id": "king-of-hell",
+    "icon": "👹",
+    "name": "King of Hell",
+    "effect": "clutch",
+    "p": 0.3
+   }
+  ]
+ },
+ "Zoldyck, Killua": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "godspeed",
+    "icon": "⚡",
+    "name": "Godspeed",
+    "effect": "blitz",
+    "p": 0.4
+   }
+  ]
+ },
+ "Okabe, Rintarou": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "reading-steiner",
+    "icon": "⏳",
+    "name": "Reading Steiner",
+    "effect": "clutch",
+    "p": 0.3
+   }
+  ]
+ },
+ "Yagami, Light": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "death-note",
+    "icon": "📓",
+    "name": "Death Note",
+    "effect": "finisher",
+    "p": 0.4
+   }
+  ]
+ },
+ "Elric, Edward": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "alchemy-array",
+    "icon": "⚗️",
+    "name": "Alchemy Array",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Uzumaki, Naruto": {
+  "tier": 5,
+  "abilities": [
+   {
+    "id": "rasengan",
+    "icon": "🌀",
+    "name": "Rasengan",
+    "effect": "finisher",
+    "p": 0.4
+   },
+   {
+    "id": "nine-tails-mode",
+    "icon": "🦊",
+    "name": "Nine-Tails Mode",
+    "effect": "clutch",
+    "p": 0.3
+   }
+  ]
+ },
+ "Yeager, Eren": {
+  "tier": 5,
+  "abilities": [
+   {
+    "id": "founding-titan",
+    "icon": "💪",
+    "name": "Founding Titan",
+    "effect": "clutch",
+    "p": 0.35
+   },
+   {
+    "id": "rumbling",
+    "icon": "🌍",
+    "name": "Rumbling",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Makise, Kurisu": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "lab-genius",
+    "icon": "💻",
+    "name": "Lab Genius",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Uchiha, Itachi": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "susanoo",
+    "icon": "🛡️",
+    "name": "Susanoo",
+    "effect": "nullify",
+    "p": 0.3
+   },
+   {
+    "id": "amaterasu",
+    "icon": "🔥",
+    "name": "Amaterasu",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Gojou, Satoru": {
+  "tier": 5,
+  "abilities": [
+   {
+    "id": "infinity",
+    "icon": "♾️",
+    "name": "Infinity",
+    "effect": "nullify",
+    "p": 0.35
+   },
+   {
+    "id": "unlimited-void",
+    "icon": "🌌",
+    "name": "Unlimited Void",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Ackerman, Mikasa": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "ackerman-rush",
+    "icon": "💨",
+    "name": "Ackerman Rush",
+    "effect": "blitz",
+    "p": 0.35
+   }
+  ]
+ },
+ "Kaneki, Ken": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "kagune-barrage",
+    "icon": "🐙",
+    "name": "Kagune Barrage",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Hatake, Kakashi": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "lightning-blade",
+    "icon": "⚡",
+    "name": "Lightning Blade",
+    "effect": "finisher",
+    "p": 0.35
+   },
+   {
+    "id": "sharingan-copy",
+    "icon": "👁️",
+    "name": "Sharingan Copy",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Saitama": {
+  "tier": 5,
+  "abilities": [
+   {
+    "id": "serious-punch",
+    "icon": "👊",
+    "name": "Serious Punch",
+    "effect": "finisher",
+    "p": 0.45
+   },
+   {
+    "id": "iron-body",
+    "icon": "🪨",
+    "name": "Iron Body",
+    "effect": "nullify",
+    "p": 0.3
+   }
+  ]
+ },
+ "Rem": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "oni-flail",
+    "icon": "🔗",
+    "name": "Oni Flail",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Reigen, Arataka": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "salt-splash",
+    "icon": "🧂",
+    "name": "Salt Splash",
+    "effect": "nullify",
+    "p": 0.25
+   }
+  ]
+ },
+ "Kirigaya, Kazuto": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "starburst",
+    "icon": "🌟",
+    "name": "Starburst",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Evergarden, Violet": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "perfect-letter",
+    "icon": "💌",
+    "name": "Perfect Letter",
+    "effect": "playmaker",
+    "p": 0.25
+   }
+  ]
+ },
+ "Mustang, Roy": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "fire-snap",
+    "icon": "🧤",
+    "name": "Fire Snap",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Kurosaki, Ichigo": {
+  "tier": 5,
+  "abilities": [
+   {
+    "id": "getsuga-tensho",
+    "icon": "🌙",
+    "name": "Getsuga Tensho",
+    "effect": "finisher",
+    "p": 0.4
+   },
+   {
+    "id": "mugetsu",
+    "icon": "🌌",
+    "name": "Mugetsu",
+    "effect": "clutch",
+    "p": 0.3
+   }
+  ]
+ },
+ "Morow, Hisoka": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "post-mortem-nen",
+    "icon": "🃏",
+    "name": "Post-Mortem Nen",
+    "effect": "clutch",
+    "p": 0.3
+   }
+  ]
+ },
+ "Sanji": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "ifrit-jambe",
+    "icon": "🦵",
+    "name": "Ifrit Jambe",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Frieren": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "zoltraak",
+    "icon": "🌠",
+    "name": "Zoltraak",
+    "effect": "finisher",
+    "p": 0.4
+   },
+   {
+    "id": "millennium-mage",
+    "icon": "🕰️",
+    "name": "Millennium Mage",
+    "effect": "clutch",
+    "p": 0.25
+   }
+  ]
+ },
+ "Uchiha, Sasuke": {
+  "tier": 5,
+  "abilities": [
+   {
+    "id": "chidori",
+    "icon": "🐦",
+    "name": "Chidori",
+    "effect": "finisher",
+    "p": 0.4
+   },
+   {
+    "id": "rinnegan-swap",
+    "icon": "✨",
+    "name": "Rinnegan Swap",
+    "effect": "blitz",
+    "p": 0.3
+   }
+  ]
+ },
+ "Yuuki, Asuna": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "lambent-light",
+    "icon": "🤺",
+    "name": "Lambent Light",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Smith, Erwin": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "final-speech",
+    "icon": "📣",
+    "name": "Final Speech",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Kageyama, Shigeo": {
+  "tier": 5,
+  "abilities": [
+   {
+    "id": "hundred-percent",
+    "icon": "💯",
+    "name": "Hundred Percent",
+    "effect": "finisher",
+    "p": 0.4
+   },
+   {
+    "id": "unknown-mode",
+    "icon": "❓",
+    "name": "Unknown Mode",
+    "effect": "clutch",
+    "p": 0.3
+   }
+  ]
+ },
+ "Natsuki, Subaru": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "return-by-death",
+    "icon": "💀",
+    "name": "Return by Death",
+    "effect": "clutch",
+    "p": 0.35
+   }
+  ]
+ },
+ "Midoriya, Izuku": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "one-for-all-100",
+    "icon": "💥",
+    "name": "One For All 100%",
+    "effect": "clutch",
+    "p": 0.35
+   },
+   {
+    "id": "detroit-smash",
+    "icon": "🌪️",
+    "name": "Detroit Smash",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Kurapika": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "emperor-time",
+    "icon": "❤️",
+    "name": "Emperor Time",
+    "effect": "clutch",
+    "p": 0.3
+   }
+  ]
+ },
+ "Todoroki, Shouto": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "flash-freeze",
+    "icon": "❄️",
+    "name": "Flash Freeze",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Kamado, Tanjirou": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "water-breathing",
+    "icon": "🌊",
+    "name": "Water Breathing",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Bakugou, Katsuki": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "ap-shot",
+    "icon": "🧨",
+    "name": "AP Shot",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Emilia": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "spirit-barrier",
+    "icon": "🧊",
+    "name": "Spirit Barrier",
+    "effect": "nullify",
+    "p": 0.25
+   }
+  ]
+ },
+ "Nico, Robin": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "flower-network",
+    "icon": "🌸",
+    "name": "Flower Network",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Denji": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "chainsaw-ravage",
+    "icon": "🪚",
+    "name": "Chainsaw Ravage",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Power": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "blood-hammer",
+    "icon": "🩸",
+    "name": "Blood Hammer",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Freecss, Gon": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "jajanken",
+    "icon": "✊",
+    "name": "Jajanken",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Trafalgar, Law": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "shambles",
+    "icon": "🔀",
+    "name": "Shambles",
+    "effect": "blitz",
+    "p": 0.35
+   }
+  ]
+ },
+ "Arlert, Armin": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "genius-gambit",
+    "icon": "📋",
+    "name": "Genius Gambit",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Zoë, Hange": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "titan-research",
+    "icon": "🧪",
+    "name": "Titan Research",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Hinata, Shouyou": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "quick-attack",
+    "icon": "🏐",
+    "name": "Quick Attack",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Sung, Jin-woo": {
+  "tier": 5,
+  "abilities": [
+   {
+    "id": "arise",
+    "icon": "🖤",
+    "name": "Arise",
+    "effect": "playmaker",
+    "p": 0.35
+   },
+   {
+    "id": "monarchs-dagger",
+    "icon": "🔪",
+    "name": "Monarch's Dagger",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Nara, Shikamaru": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "shadow-strategy",
+    "icon": "🧠",
+    "name": "Shadow Strategy",
+    "effect": "playmaker",
+    "p": 0.35
+   }
+  ]
+ },
+ "Meruem": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "chimera-rage",
+    "icon": "🐜",
+    "name": "Chimera Rage",
+    "effect": "finisher",
+    "p": 0.4
+   }
+  ]
+ },
+ "Makima": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "contract-chain",
+    "icon": "⛓️",
+    "name": "Contract Chain",
+    "effect": "playmaker",
+    "p": 0.35
+   }
+  ]
+ },
+ "Itadori, Yuuji": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "black-flash",
+    "icon": "🥊",
+    "name": "Black Flash",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Tony Tony, Chopper": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "monster-point",
+    "icon": "🦌",
+    "name": "Monster Point",
+    "effect": "finisher",
+    "p": 0.25
+   }
+  ]
+ },
+ "Agatsuma, Zenitsu": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "thunderclap",
+    "icon": "🌩️",
+    "name": "Thunderclap",
+    "effect": "blitz",
+    "p": 0.35
+   }
+  ]
+ },
+ "Nami": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "thunderbolt-tempo",
+    "icon": "⛈️",
+    "name": "Thunderbolt Tempo",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Elric, Alphonse": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "steel-guard",
+    "icon": "🤖",
+    "name": "Steel Guard",
+    "effect": "wall",
+    "p": 0.25
+   }
+  ]
+ },
+ "Forger, Anya": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "telepath-peek",
+    "icon": "🥜",
+    "name": "Telepath Peek",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Hashibira, Inosuke": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "beast-fang",
+    "icon": "🐗",
+    "name": "Beast Fang",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Urahara, Kisuke": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "genius-tactics",
+    "icon": "🎩",
+    "name": "Genius Tactics",
+    "effect": "playmaker",
+    "p": 0.35
+   }
+  ]
+ },
+ "Zaraki, Kenpachi": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "nozarashi",
+    "icon": "⚔️",
+    "name": "Nozarashi",
+    "effect": "finisher",
+    "p": 0.4
+   }
+  ]
+ },
+ "Jiraiya": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "sage-mode",
+    "icon": "🐸",
+    "name": "Sage Mode",
+    "effect": "clutch",
+    "p": 0.3
+   }
+  ]
+ },
+ "Aizen, Sousuke": {
+  "tier": 5,
+  "abilities": [
+   {
+    "id": "mirror-illusion",
+    "icon": "🪞",
+    "name": "Mirror Illusion",
+    "effect": "playmaker",
+    "p": 0.35
+   },
+   {
+    "id": "black-coffin",
+    "icon": "⚰️",
+    "name": "Black Coffin",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Kageyama, Tobio": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "godlike-toss",
+    "icon": "🏐",
+    "name": "Godlike Toss",
+    "effect": "playmaker",
+    "p": 0.35
+   }
+  ]
+ },
+ "Usopp": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "sniper-king",
+    "icon": "🎯",
+    "name": "Sniper King",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Rengoku, Kyoujurou": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "ninth-form",
+    "icon": "🐅",
+    "name": "Ninth Form",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Kamado, Nezuko": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "blood-burst",
+    "icon": "🩸",
+    "name": "Blood Burst",
+    "effect": "clutch",
+    "p": 0.3
+   }
+  ]
+ },
+ "Suzuya, Juuzou": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "twin-scythes",
+    "icon": "⚔️",
+    "name": "Twin Scythes",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Nanami, Kento": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "overtime",
+    "icon": "⌚",
+    "name": "Overtime",
+    "effect": "clutch",
+    "p": 0.3
+   }
+  ]
+ },
+ "Uchiha, Madara": {
+  "tier": 5,
+  "abilities": [
+   {
+    "id": "tengai-shinsei",
+    "icon": "☄️",
+    "name": "Tengai Shinsei",
+    "effect": "finisher",
+    "p": 0.4
+   },
+   {
+    "id": "preta-path",
+    "icon": "🔴",
+    "name": "Preta Path",
+    "effect": "nullify",
+    "p": 0.25
+   }
+  ]
+ },
+ "Gaara": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "sand-shield",
+    "icon": "🏜️",
+    "name": "Sand Shield",
+    "effect": "nullify",
+    "p": 0.3
+   },
+   {
+    "id": "sand-burial",
+    "icon": "🪦",
+    "name": "Sand Burial",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Fushiguro, Megumi": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "shadow-summons",
+    "icon": "🐺",
+    "name": "Shadow Summons",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Oikawa, Tooru": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "kings-serve",
+    "icon": "👑",
+    "name": "King's Serve",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Ryoumen, Sukuna": {
+  "tier": 5,
+  "abilities": [
+   {
+    "id": "malevolent-shrine",
+    "icon": "⛩️",
+    "name": "Malevolent Shrine",
+    "effect": "finisher",
+    "p": 0.45
+   }
+  ]
+ },
+ "Hyuuga, Hinata": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "twin-lion-fists",
+    "icon": "🦁",
+    "name": "Twin Lion Fists",
+    "effect": "finisher",
+    "p": 0.25
+   }
+  ]
+ },
+ "Ryuk": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "apple-bargain",
+    "icon": "🍎",
+    "name": "Apple Bargain",
+    "effect": "playmaker",
+    "p": 0.25
+   }
+  ]
+ },
+ "Shiina, Mayuri": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "starlight-wish",
+    "icon": "🎀",
+    "name": "Starlight Wish",
+    "effect": "clutch",
+    "p": 0.2
+   }
+  ]
+ },
+ "Nishinoya, Yuu": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "iron-receive",
+    "icon": "🧤",
+    "name": "Iron Receive",
+    "effect": "nullify",
+    "p": 0.3
+   }
+  ]
+ },
+ "Kochou, Shinobu": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "insect-strike",
+    "icon": "🦋",
+    "name": "Insect Strike",
+    "effect": "blitz",
+    "p": 0.3
+   }
+  ]
+ },
+ "Tomioka, Giyuu": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "dead-calm",
+    "icon": "🫧",
+    "name": "Dead Calm",
+    "effect": "nullify",
+    "p": 0.3
+   }
+  ]
+ },
+ "Forger, Yor": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "assassins-thorn",
+    "icon": "🌹",
+    "name": "Assassin's Thorn",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Kirishima, Touka": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "ukaku-flight",
+    "icon": "🕊️",
+    "name": "Ukaku Flight",
+    "effect": "blitz",
+    "p": 0.3
+   }
+  ]
+ },
+ "Portgas D., Ace": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "fire-fist",
+    "icon": "🔥",
+    "name": "Fire Fist",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Reze": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "bomb-devil",
+    "icon": "💣",
+    "name": "Bomb Devil",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Namikaze, Minato": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "yellow-flash",
+    "icon": "💛",
+    "name": "Yellow Flash",
+    "effect": "blitz",
+    "p": 0.4
+   }
+  ]
+ },
+ "Kozume, Kenma": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "brain-of-nekoma",
+    "icon": "🎮",
+    "name": "Brain of Nekoma",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Brook": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "soul-music",
+    "icon": "🎵",
+    "name": "Soul Music",
+    "effect": "playmaker",
+    "p": 0.25
+   }
+  ]
+ },
+ "Lucilfer, Chrollo": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "skill-hunter",
+    "icon": "📖",
+    "name": "Skill Hunter",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "All Might": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "plus-ultra",
+    "icon": "⭐",
+    "name": "Plus Ultra",
+    "effect": "finisher",
+    "p": 0.4
+   }
+  ]
+ },
+ "Blouse, Sasha": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "hunters-instinct",
+    "icon": "🏹",
+    "name": "Hunter's Instinct",
+    "effect": "blitz",
+    "p": 0.25
+   }
+  ]
+ },
+ "Hayakawa, Aki": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "fox-bite",
+    "icon": "🦊",
+    "name": "Fox Bite",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Nanachi": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "abyss-guide",
+    "icon": "🐰",
+    "name": "Abyss Guide",
+    "effect": "playmaker",
+    "p": 0.25
+   }
+  ]
+ },
+ "Sano, Manjirou": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "nuclear-kick",
+    "icon": "🦵",
+    "name": "Nuclear Kick",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Kugisaki, Nobara": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "resonance",
+    "icon": "🔨",
+    "name": "Resonance",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Kuchiki, Rukia": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "dance-of-death",
+    "icon": "❄️",
+    "name": "Dance of Death",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Tsukishima, Kei": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "sky-block",
+    "icon": "🧱",
+    "name": "Sky Block",
+    "effect": "wall",
+    "p": 0.25
+   }
+  ]
+ },
+ "Cifer, Ulquiorra": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "lanza-strike",
+    "icon": "🦇",
+    "name": "Lanza Strike",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Braun, Reiner": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "armored-guard",
+    "icon": "🛡️",
+    "name": "Armored Guard",
+    "effect": "wall",
+    "p": 0.3
+   }
+  ]
+ },
+ "Zenin, Maki": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "dragon-fang",
+    "icon": "🐉",
+    "name": "Dragon Fang",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Hitsugaya, Toushirou": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "frozen-heavens",
+    "icon": "🧊",
+    "name": "Frozen Heavens",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Pain": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "chibaku-tensei",
+    "icon": "🌑",
+    "name": "Chibaku Tensei",
+    "effect": "finisher",
+    "p": 0.4
+   }
+  ]
+ },
+ "Arima, Kana": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "scene-stealer",
+    "icon": "🎬",
+    "name": "Scene Stealer",
+    "effect": "clutch",
+    "p": 0.25
+   }
+  ]
+ },
+ "Uchiha, Obito": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "kamui",
+    "icon": "🕳️",
+    "name": "Kamui",
+    "effect": "nullify",
+    "p": 0.35
+   }
+  ]
+ },
+ "Okkotsu, Yuuta": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "rikas-wrath",
+    "icon": "💍",
+    "name": "Rika's Wrath",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Aizawa, Shouta": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "quirk-erase",
+    "icon": "🚫",
+    "name": "Quirk Erase",
+    "effect": "nullify",
+    "p": 0.3
+   }
+  ]
+ },
+ "Inumaki, Toge": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "stop-command",
+    "icon": "📢",
+    "name": "Stop Command",
+    "effect": "nullify",
+    "p": 0.3
+   }
+  ]
+ },
+ "Hoshino, Ai": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "center-stage",
+    "icon": "🌟",
+    "name": "Center Stage",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Garou": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "hunters-fang",
+    "icon": "🐺",
+    "name": "Hunter's Fang",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Paladiknight, Leorio": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "field-medic",
+    "icon": "🩺",
+    "name": "Field Medic",
+    "effect": "playmaker",
+    "p": 0.2
+   }
+  ]
+ },
+ "Kirstein, Jean": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "flank-command",
+    "icon": "🧭",
+    "name": "Flank Command",
+    "effect": "playmaker",
+    "p": 0.25
+   }
+  ]
+ },
+ "Amane, Misa": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "second-kira",
+    "icon": "📓",
+    "name": "Second Kira",
+    "effect": "finisher",
+    "p": 0.25
+   }
+  ]
+ },
+ "Kuroo, Tetsurou": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "scheming-block",
+    "icon": "🧠",
+    "name": "Scheming Block",
+    "effect": "playmaker",
+    "p": 0.25
+   }
+  ]
+ },
+ "Kuchiki, Byakuya": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "senbonzakura",
+    "icon": "🌸",
+    "name": "Senbonzakura",
+    "effect": "finisher",
+    "p": 0.35
+   }
+  ]
+ },
+ "Shihouin, Yoruichi": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "flash-goddess",
+    "icon": "🐈",
+    "name": "Flash Goddess",
+    "effect": "blitz",
+    "p": 0.35
+   }
+  ]
+ },
+ "Jaegerjaquez, Grimmjow": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "pantera-claw",
+    "icon": "🐆",
+    "name": "Pantera Claw",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Franky": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "radical-beam",
+    "icon": "🔫",
+    "name": "Radical Beam",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Charlotte, Katakuri": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "future-sight",
+    "icon": "🔮",
+    "name": "Future Sight",
+    "effect": "nullify",
+    "p": 0.3
+   }
+  ]
+ },
+ "Shanks": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "divine-departure",
+    "icon": "🗡️",
+    "name": "Divine Departure",
+    "effect": "finisher",
+    "p": 0.4
+   }
+  ]
+ },
+ "Forger, Loid": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "master-spy",
+    "icon": "🕵️",
+    "name": "Master Spy",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Kurokawa, Akane": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "study-role",
+    "icon": "📚",
+    "name": "Study Role",
+    "effect": "playmaker",
+    "p": 0.25
+   }
+  ]
+ },
+ "Hughes, Maes": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "intel-network",
+    "icon": "📞",
+    "name": "Intel Network",
+    "effect": "playmaker",
+    "p": 0.25
+   }
+  ]
+ },
+ "Getou, Suguru": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "curse-manipulation",
+    "icon": "👺",
+    "name": "Curse Manipulation",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Lee, Rock": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "eight-gates",
+    "icon": "🍃",
+    "name": "Eight Gates",
+    "effect": "blitz",
+    "p": 0.35
+   }
+  ]
+ },
+ "Greed": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "ultimate-shield",
+    "icon": "⬛",
+    "name": "Ultimate Shield",
+    "effect": "wall",
+    "p": 0.25
+   }
+  ]
+ },
+ "Leonhart, Annie": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "crystal-strike",
+    "icon": "💎",
+    "name": "Crystal Strike",
+    "effect": "finisher",
+    "p": 0.25
+   }
+  ]
+ },
+ "Kirishima, Eijirou": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "hardening",
+    "icon": "🧱",
+    "name": "Hardening",
+    "effect": "wall",
+    "p": 0.25
+   }
+  ]
+ },
+ "Uzui, Tengen": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "explosive-finale",
+    "icon": "🎆",
+    "name": "Explosive Finale",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Fern": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "zoltraak-barrage",
+    "icon": "🌠",
+    "name": "Zoltraak Barrage",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Genos": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "incinerate",
+    "icon": "🔥",
+    "name": "Incinerate",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Hawkeye, Riza": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "eagle-eye",
+    "icon": "🎯",
+    "name": "Eagle Eye",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Uraraka, Ochako": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "zero-gravity",
+    "icon": "🎈",
+    "name": "Zero Gravity",
+    "effect": "playmaker",
+    "p": 0.25
+   }
+  ]
+ },
+ "Haruno, Sakura": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "super-strength",
+    "icon": "🤜",
+    "name": "Super Strength",
+    "effect": "finisher",
+    "p": 0.25
+   }
+  ]
+ },
+ "Sugawara, Koushi": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "healing-toss",
+    "icon": "🏐",
+    "name": "Healing Toss",
+    "effect": "playmaker",
+    "p": 0.2
+   }
+  ]
+ },
+ "Matsuno, Chifuyu": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "loyal-backup",
+    "icon": "🤝",
+    "name": "Loyal Backup",
+    "effect": "playmaker",
+    "p": 0.25
+   }
+  ]
+ },
+ "Hoshino, Aquamarine": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "revenge-strategy",
+    "icon": "♟️",
+    "name": "Revenge Strategy",
+    "effect": "playmaker",
+    "p": 0.25
+   }
+  ]
+ },
+ "Toudou, Aoi": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "boogie-woogie",
+    "icon": "👏",
+    "name": "Boogie Woogie",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Izumi, Shinichi": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "blade-arm",
+    "icon": "🔪",
+    "name": "Blade Arm",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Himmel": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "heros-legacy",
+    "icon": "🗿",
+    "name": "Hero's Legacy",
+    "effect": "clutch",
+    "p": 0.25
+   }
+  ]
+ },
+ "Ayase, Momo": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "psychic-grab",
+    "icon": "✋",
+    "name": "Psychic Grab",
+    "effect": "nullify",
+    "p": 0.25
+   }
+  ]
+ },
+ "Yao, Ling": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "panda-pounce",
+    "icon": "🐼",
+    "name": "Panda Pounce",
+    "effect": "blitz",
+    "p": 0.25
+   }
+  ]
+ },
+ "Ryuuguuji, Ken": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "vice-leader-wall",
+    "icon": "🐲",
+    "name": "Vice-Leader Wall",
+    "effect": "wall",
+    "p": 0.25
+   }
+  ]
+ },
+ "Bondrewd": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "zoaholic",
+    "icon": "🎭",
+    "name": "Zoaholic",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Higashiyama, Kobeni": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "devil-luck",
+    "icon": "🍀",
+    "name": "Devil Luck",
+    "effect": "clutch",
+    "p": 0.3
+   }
+  ]
+ },
+ "Edward, Newgate": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "quake-eruption",
+    "icon": "🌋",
+    "name": "Quake Eruption",
+    "effect": "finisher",
+    "p": 0.4
+   }
+  ]
+ },
+ "Asui, Tsuyu": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "frog-strike",
+    "icon": "🐸",
+    "name": "Frog Strike",
+    "effect": "blitz",
+    "p": 0.25
+   }
+  ]
+ },
+ "Migi": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "tactical-brain",
+    "icon": "🔬",
+    "name": "Tactical Brain",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Netero, Isaac": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "guanyin-strike",
+    "icon": "🙏",
+    "name": "Guanyin Strike",
+    "effect": "finisher",
+    "p": 0.4
+   }
+  ]
+ },
+ "Donquixote, Doflamingo": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "parasite-strings",
+    "icon": "🕸️",
+    "name": "Parasite Strings",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Beatrice": {
+  "tier": 2,
+  "abilities": [
+   {
+    "id": "door-barrier",
+    "icon": "🚪",
+    "name": "Door Barrier",
+    "effect": "nullify",
+    "p": 0.25
+   }
+  ]
+ },
+ "Kanroji, Mitsuri": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "love-breathing",
+    "icon": "💗",
+    "name": "Love Breathing",
+    "effect": "finisher",
+    "p": 0.3
+   }
+  ]
+ },
+ "Ichimaru, Gin": {
+  "tier": 3,
+  "abilities": [
+   {
+    "id": "serpent-scheme",
+    "icon": "🐍",
+    "name": "Serpent Scheme",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Bachira, Meguru": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "monster-dribble",
+    "icon": "⚽",
+    "name": "Monster Dribble",
+    "effect": "blitz",
+    "p": 0.3
+   }
+  ]
+ },
+ "Isagi, Yoichi": {
+  "tier": 1,
+  "abilities": [
+   {
+    "id": "spatial-vision",
+    "icon": "🔭",
+    "name": "Spatial Vision",
+    "effect": "playmaker",
+    "p": 0.3
+   }
+  ]
+ },
+ "Dracule, Mihawk": {
+  "tier": 4,
+  "abilities": [
+   {
+    "id": "world-slash",
+    "icon": "🌪️",
+    "name": "World Slash",
+    "effect": "finisher",
+    "p": 0.4
+   }
+  ]
+ }
+}

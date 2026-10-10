@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0d1b2e">
 <title>درافت الأنمي — لعبة تشكيلة الشخصيات</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -39,7 +41,7 @@
         <input id="budget" type="number" min="10" max="1000" value="200">
       </label>
       <button id="startBtn" class="primary-btn">ابدأ الدرافت 🎴</button>
-      <p class="hint">هيتم تحميل الشخصيات عشوائي من قاعدة بيانات مجانية (Jikan / MyAnimeList) — محتاج إنترنت لتحميل الصور والأسماء.</p>
+      <p class="hint">الدرافت بيمشي بالمراكز بالترتيب: حراس، بعدين دفاع، بعدين وسط، وفي الآخر هجوم — زي تكوين فريق حقيقي.</p>
     </div>
   </section>
 
@@ -133,6 +135,23 @@
         <div id="motmDetail" class="motm-detail"></div>
       </div>
 
+      <div class="timeline-box" id="timelineBox">
+        <h4>📋 أحداث المباراة (دقيقة بدقيقة)</h4>
+        <ul id="timelineList" class="timeline-list"></ul>
+      </div>
+
+      <div class="lineup-box" id="lineupBox">
+        <h4>📋 التشكيلة حسب المراكز</h4>
+        <div id="lineupGrid" class="lineup-grid"></div>
+      </div>
+
+      <div class="analysis-box" id="analysisBox">
+        <h4>📊 تحليل الماتش</h4>
+        <div id="statsTable" class="stats-table"></div>
+        <h4>🔥 اللحظات الحاسمة</h4>
+        <ul id="keyMoments" class="timeline-list"></ul>
+      </div>
+
       <button id="newGameBtn" class="primary-btn">لعبة جديدة 🔁</button>
     </div>
   </section>
@@ -149,5 +168,8 @@
 
 <script src="common.js"></script>
 <script src="app.js"></script>
+<script>
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js').catch(() => {}); }
+</script>
 </body>
 </html>

@@ -32,9 +32,10 @@ const state = {
   ],
   squadSize: 11,
   pool: null,
+  pairs: null,
   matchDone: false,
-  // auction state — each round reveals a pair of characters: pool[round*2] goes up
-  // for auction, pool[round*2+1] is a free consolation for whoever loses that bid.
+  // auction state — rounds go position by position (GK -> DEF -> MID -> FWD):
+  // each round auctions one character, the loser takes a bonus consolation.
   round: 0,
   opener: 0,        // which player opens bidding for the current round
   currentBid: 0,
@@ -56,6 +57,7 @@ async function startDraft() {
   ];
   state.squadSize = squadSize;
   state.matchDone = false;
+  state.pairs = null;
   state.round = 0;
   state.opener = 0;
   state.currentBid = 0;
@@ -63,11 +65,11 @@ async function startDraft() {
   state.turnToAct = 0;
 
   showScreen('loading');
-  const total = squadSize * 2; // one auctioned + one free character per round
+  const quotas = formationFor(squadSize);
   const progressBar = document.getElementById('progressBar');
   const loadingText = document.getElementById('loadingText');
   progressBar.style.width = '5%';
-  loadingText.textContent = `جاري تحميل ${total} شخصية عشوائية من MyAnimeList...`;
+  loadingText.textContent = `جاري تحميل التشكيلة بالمراكز (حراس ثم دفاع ثم وسط ثم هجوم)...`;
 
   // fake incremental progress while the (rate-limited) fetch runs
   let fakePct = 5;
@@ -77,7 +79,12 @@ async function startDraft() {
   }, 400);
 
   try {
-    state.pool = await getRandomPricedPool(total);
+    await ensureAbilities(getGameTheme());
+    const pool = await getSlotPool({
+      GK: quotas.GK * 2, DEF: quotas.DEF * 2, MID: quotas.MID * 2, FWD: quotas.FWD * 2,
+    });
+    state.pairs = pairBySlot(pool);
+    state.pool = pool;
     clearInterval(tick);
     progressBar.style.width = '100%';
     setTimeout(() => {
@@ -121,14 +128,11 @@ function pickEligibleStarter() {
 }
 
 function currentPair() {
-  return {
-    auctionChar: state.pool[state.round * 2],
-    bonusChar: state.pool[state.round * 2 + 1],
-  };
+  return state.pairs[state.round];
 }
 
 function startRound() {
-  if (state.round >= state.squadSize) {
+  if (state.round >= state.pairs.length) {
     updatePanels();
     setTimeout(runMatch, 400);
     return;
@@ -138,7 +142,7 @@ function startRound() {
   if (starter === null) {
     // both players broke or full — extremely rare edge case (e.g. budget spent too
     // fast). Hand both this round's characters out for free so squads stay in sync.
-    const { auctionChar, bonusChar } = currentPair();
+    const { auction: auctionChar, bonus: bonusChar } = currentPair();
     state.players[0].squad.push({ ...auctionChar, price: 0 });
     state.players[1].squad.push({ ...bonusChar, price: 0 });
     state.round++;
@@ -164,11 +168,12 @@ function autoResolveOrRender() {
 }
 
 function renderAuction() {
-  const { auctionChar, bonusChar } = currentPair();
+  const { auction: auctionChar, bonus: bonusChar } = currentPair();
   updatePanels();
 
+  const lineMeta = LINE_META[currentPair().line] || LINE_META.MID;
   document.getElementById('auctionCounter').textContent =
-    `جولة ${state.round + 1} من ${state.squadSize} — الشخصية اللي هتخسر المزاد هتاخد "${bonusChar.name}" ببلاش`;
+    `جولة ${state.round + 1} من ${state.pairs.length} — ${lineMeta.icon} ${lineMeta.label} — اللي هيخسر هياخد "${bonusChar.name}" ببلاش`;
   document.getElementById('auctionImg').src = auctionChar.image;
   document.getElementById('auctionImg').alt = auctionChar.name;
   document.getElementById('auctionName').textContent = auctionChar.name;
@@ -222,7 +227,7 @@ function raiseBid(newBidTotal) {
 
 function resolvePass() {
   // passing is only legal once someone has already bid (see renderAuction)
-  const { auctionChar, bonusChar } = currentPair();
+  const { auction: auctionChar, bonus: bonusChar } = currentPair();
   const winner = state.players[state.currentBidder];
   const loser = state.players[1 - state.currentBidder];
   winner.squad.push({ ...auctionChar, price: state.currentBid });
@@ -289,6 +294,7 @@ async function saveHistory(p1, p2, result) {
 
 document.getElementById('newGameBtn').onclick = () => {
   state.pool = null;
+  state.pairs = null;
   state.matchDone = false;
   setNav('navPlay');
   showScreen('setup');

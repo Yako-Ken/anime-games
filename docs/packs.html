@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>تحدي الباكات — أنمي</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0d1b2e">
+<title>تحدي الباكات</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="packs.css">
 </head>
@@ -12,8 +14,8 @@
 <header class="topbar">
   <h1>📦 تحدي الباكات</h1>
   <nav>
-    <a href="draft.html" class="navbtn">⚔️ الدرافت</a>
-    <a href="deal.html" class="navbtn">🎁 الصناديق</a>
+    <a href="draft.html" class="navbtn">⚔️ لعبة الدرافت</a>
+    <a href="deal.html" class="navbtn">🎁 صناديق الأنمي</a>
     <a href="guess.html" class="navbtn">❓ خمّن يا صديق</a>
     <a href="draft.html?tab=history" class="navbtn">📜 السجل</a>
     <a href="index.html" class="navbtn">🌍 العالم</a>
@@ -30,12 +32,12 @@
         <input id="p1Name" type="text" placeholder="مثال: أحمد" maxlength="20">
       </label>
       <label>اسم اللاعب الثاني
-        <input id="p2Name" type="text" placeholder="مثال: زياد" maxlength="20">
+        <input id="p2Name" type="text" placeholder="مثال: محمد" maxlength="20">
       </label>
       <button id="startBtn" class="primary-btn">ابدأ اللعبة 📦</button>
       <p class="hint">
-        كل لاعب هياخد 3 باكات مجهولة (8 شخصيات جوه كل باكة). تقدر تسأل لحد 3 أسئلة بنعم/لأ عن كل باكة عشان تجمع معلومات،
-        وبعدين تختار باكة واحدة بس تفتحها — دي هتبقى تشكيلتك في المباراة.
+        كل لاعب بيختار باكة من 3 باكات مقفولة — كل باكة فيها 8 شخصيات ومفاجأة مستخبية (حلوة أو وحشة).
+        قبل ما تفتح، ممكن تسأل الحكم 3 أسئلة وهو يجاوبك بنعم أو لأ.
       </p>
     </div>
   </section>
@@ -49,24 +51,22 @@
     </div>
   </section>
 
-  <!-- PACK PICKING -->
+  <!-- PACKS -->
   <section id="screen-packs" class="screen">
     <div class="packs-header">
-      <div id="turnTitle" class="turn-title"></div>
-      <div id="packsHint" class="packs-hint"></div>
+      <h2 id="turnTitle" class="turn-title"></h2>
+      <p id="packsHint" class="packs-hint"></p>
     </div>
-    <div class="packs-grid" id="packsGrid"></div>
+    <div id="packsGrid" class="packs-grid"></div>
   </section>
 
   <!-- TEAMS PREVIEW -->
   <section id="screen-teams" class="screen">
     <div class="teams-header">
-      <h2>⚔️ التشكيلتين النهائيتين</h2>
+      <h2>تشكيلات الفرق</h2>
     </div>
-    <div class="teams-grid" id="teamsGrid"></div>
-    <div style="text-align:center; margin-top:20px;">
-      <button id="showMatchBtn" class="primary-btn" style="max-width:280px; margin:0 auto;">شوف نتيجة المباراة ⚽</button>
-    </div>
+    <div id="teamsGrid" class="teams-grid"></div>
+    <button id="showMatchBtn" class="primary-btn">عرض نتيجة المباراة ⚽</button>
   </section>
 
   <!-- MATCH RESULT -->
@@ -104,6 +104,23 @@
         <div id="motmDetail" class="motm-detail"></div>
       </div>
 
+      <div class="timeline-box" id="timelineBox">
+        <h4>📋 أحداث المباراة (دقيقة بدقيقة)</h4>
+        <ul id="timelineList" class="timeline-list"></ul>
+      </div>
+
+      <div class="lineup-box" id="lineupBox">
+        <h4>📋 التشكيلة حسب المراكز</h4>
+        <div id="lineupGrid" class="lineup-grid"></div>
+      </div>
+
+      <div class="analysis-box" id="analysisBox">
+        <h4>📊 تحليل الماتش</h4>
+        <div id="statsTable" class="stats-table"></div>
+        <h4>🔥 اللحظات الحاسمة</h4>
+        <ul id="keyMoments" class="timeline-list"></ul>
+      </div>
+
       <button id="newGameBtn" class="primary-btn">لعبة جديدة 🔁</button>
     </div>
   </section>
@@ -112,5 +129,8 @@
 
 <script src="common.js"></script>
 <script src="packs.js"></script>
+<script>
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js').catch(() => {}); }
+</script>
 </body>
 </html>

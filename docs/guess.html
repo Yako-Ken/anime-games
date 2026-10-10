@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0d1b2e">
 <title>خمّن يا صديق</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="guess.css">
@@ -34,7 +36,7 @@
       </label>
       <button id="startBtn" class="primary-btn">ابدأ اللعبة ❓</button>
       <p class="hint">
-        في كل جولة، اللعبة بتختار شخصية سرية عشوائية وتديكم 5 هينتات عليها واحد ورا التاني (من العام للخاص).
+        في كل جولة، اللعبة بتختار شخصية سرية عشوائية وتديكم هينتات صعبة واحد ورا التاني (من المبهم للواضح).
         كل هينت له 60 ثانية. اللاعبين بيقولوا تخمينهم بصوت عالي، والحكم (اللي ماسك الشاشة) هو اللي بيقرر التخمين
         صح ولا غلط ويدوس زرار الهينت الجاي. أول واحد يخمن صح ياخد الجولة.
       </p>
@@ -105,5 +107,8 @@
 
 <script src="common.js"></script>
 <script src="guess.js"></script>
+<script>
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js').catch(() => {}); }
+</script>
 </body>
 </html>

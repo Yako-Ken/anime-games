@@ -51,6 +51,7 @@ async function startGame() {
   }, 400);
 
   try {
+    await ensureAbilities(getGameTheme());
     const pool = await getFullCharacterDatabase();
     clearInterval(tick);
     buildPacks(pool);

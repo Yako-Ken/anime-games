@@ -69,7 +69,7 @@ async function startGame() {
   const progressBar = document.getElementById('progressBar');
   const loadingText = document.getElementById('loadingText');
   progressBar.style.width = '5%';
-  loadingText.textContent = 'جاري تحميل 40 شخصية عشوائية من MyAnimeList...';
+  loadingText.textContent = 'جاري تحميل 48 شخصية بالمراكز (حارس، دفاع، وسط، هجوم، مدرب)...';
 
   let fakePct = 5;
   const tick = setInterval(() => {
@@ -78,9 +78,11 @@ async function startGame() {
   }, 400);
 
   try {
-    const pool = await getRandomPricedPool(40);
+    await ensureAbilities(getGameTheme());
+    const linePool = await getSlotPool({ GK: 8, DEF: 8, MID: 8, FWD: 8 });
+    const hcPool = await getRandomPricedPool(8);
     clearInterval(tick);
-    buildBoxSets(pool);
+    buildBoxSets(linePool, hcPool);
     progressBar.style.width = '100%';
     setTimeout(() => {
       showScreen('game');
@@ -92,8 +94,12 @@ async function startGame() {
   }
 }
 
-function buildBoxSets(poolFlat) {
-  const pool = shuffle([...poolFlat]);
+function buildBoxSets(linePool, hcPool) {
+  // Each category pulls from its own positional line (GK boxes hold
+  // goalkeepers, etc.) — HC (coach) boxes pull from a separate mix.
+  const byLine = { GK: [], DEF: [], MID: [], FWD: [] };
+  for (const c of shuffle([...linePool])) (byLine[c.slot] || byLine.MID).push(c);
+  const hc = shuffle([...hcPool]);
 
   // Bank-offer cards are optional per game, and each of the 3 card types can
   // appear at most once in the whole game (a rare, one-off twist each).
@@ -118,12 +124,13 @@ function buildBoxSets(poolFlat) {
   }
 
   let cursor = 0;
+  let hcCursor = 0;
   for (let player = 0; player < 2; player++) {
     state.boxSets[player] = {};
     for (const cat of CATEGORIES) {
       const slots = [];
       for (let box = 0; box < 4; box++) {
-        const character = pool[cursor++];
+        const character = cat.key === 'HC' ? hc[hcCursor++] : byLine[cat.key].shift();
         const special = specialSlots.get(`${player}-${cat.key}-${box}`) || null;
         slots.push({ character, special, opened: false });
       }

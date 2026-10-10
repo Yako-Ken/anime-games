@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0d1b2e">
 <title>اختار عالمك — ألعاب الشخصيات</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="theme.css">
@@ -30,11 +32,24 @@
       <button class="theme-card" data-theme="ml">
         <div class="theme-emoji">🎮</div>
         <div class="theme-name">موبايل ليجند</div>
-        <div class="theme-desc">أبطال موبايل ليجند — قاعدة البيانات لسه فاضية، هتتضاف قريبًا</div>
+        <div class="theme-desc">أبطال موبايل ليجند — أكتر من 130 بطل بتقييماتهم ومهاراتهم</div>
+      </button>
+
+      <button class="theme-card" data-theme="football">
+        <div class="theme-emoji">⚽</div>
+        <div class="theme-name">عالم كرة القدم</div>
+        <div class="theme-desc">أكتر من 350 لاعب — نجوم حاليين وأساطير وقدامى بتقييمات حقيقية</div>
       </button>
     </div>
 
     <div id="themeNote" class="theme-note"></div>
+
+    <div class="card center" style="margin-top:20px;">
+      <h2>📴 اللعب أوفلاين</h2>
+      <p class="hint">افتح الموقع مرة واحدة بالنت، ودوس الزرار ده عشان يحمّل كل الصور والبيانات على جهازك — وبعدها العب أوفلاين في أي وقت.</p>
+      <button id="precacheBtn" class="primary-btn">⬇️ حمّل كل حاجة للأوفلاين</button>
+      <p id="precacheStatus" class="hint"></p>
+    </div>
   </section>
 </main>
 
@@ -49,9 +64,48 @@
 
   const currentTheme = localStorage.getItem('gameTheme');
   if (currentTheme) {
-    const label = currentTheme === 'ml' ? 'موبايل ليجند' : 'الأنمي';
+    const label = currentTheme === 'ml' ? 'موبايل ليجند' : currentTheme === 'football' ? 'كرة القدم' : 'الأنمي';
     document.getElementById('themeNote').textContent = `آخر اختيار: عالم ${label} — اختار تاني لو عايز تغيّر.`;
   }
+</script>
+<script>
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js').catch(() => {}); }
+</script>
+<script>
+// Pre-cache every image + data file into the Service Worker cache so the
+// whole site works offline after one online visit.
+document.getElementById('precacheBtn').onclick = async () => {
+  const status = document.getElementById('precacheStatus');
+  const btn = document.getElementById('precacheBtn');
+  btn.disabled = true;
+  try {
+    const files = ['characters.json', 'characters-ml.json', 'players-football.json', 'guess-hints.json',
+      'characters-abilities.json', 'ml-abilities.json', 'football-abilities.json'];
+    const urls = new Set();
+    for (const f of files) {
+      status.textContent = `جاري تجهيز ${f}...`;
+      const res = await fetch(f);
+      if (!res.ok) continue;
+      const data = await res.json();
+      const list = Array.isArray(data) ? data : Object.keys(data);
+      for (const e of list) {
+        if (e && e.image) urls.add(e.image);
+      }
+    }
+    const all = [...urls];
+    const cache = await caches.open('char-games-v1');
+    let done = 0;
+    for (let i = 0; i < all.length; i += 20) {
+      await Promise.all(all.slice(i, i + 20).map(u =>
+        cache.add(u).then(() => { done++; }).catch(() => { done++; })));
+      status.textContent = `اتحمّل ${done} من ${all.length} صورة...`;
+    }
+    status.textContent = `✅ خلص! ${done} صورة متخزنة — تقدر تلعب أوفلاين دلوقتي.`;
+  } catch (e) {
+    status.textContent = 'تعذر التحميل — اتأكد إن عندك نت وحاول تاني.';
+    btn.disabled = false;
+  }
+};
 </script>
 
 </body>
