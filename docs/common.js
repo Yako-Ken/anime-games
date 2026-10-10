@@ -415,7 +415,7 @@ function simulateMatch(squad1, squad2, theme) {
       const big = card.star || tierOf(shooter, theme) >= 4;
       push({ min, side, t: 'save', player: keeper ? keeper.name : '—', shooter: shooter.name, big });
       if (skill) st.skills++;
-      if (skill && Math.random() < 0.5) push({ min, side, t: 'star', player: shooter.name, skill });
+      if (skill) push({ min, side, t: 'star', player: shooter.name, skill });
     }
   };
 

@@ -950,6 +950,13 @@
     "name": "Shadow Summons",
     "effect": "playmaker",
     "p": 0.3
+   },
+   {
+    "id": "chimera-shadow-garden",
+    "icon": "🌼",
+    "name": "Chimera Shadow Garden",
+    "effect": "finisher",
+    "p": 0.3
    }
   ]
  },
@@ -974,6 +981,13 @@
     "name": "Malevolent Shrine",
     "effect": "finisher",
     "p": 0.45
+   },
+   {
+    "id": "dismantle",
+    "icon": "🔪",
+    "name": "Dismantle",
+    "effect": "blitz",
+    "p": 0.3
    }
   ]
  },
